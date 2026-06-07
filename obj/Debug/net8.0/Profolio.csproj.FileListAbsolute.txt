@@ -84,3 +84,4 @@
 /home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/obj/Debug/net8.0/Profolio.pdb
 /home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/obj/Debug/net8.0/Profolio.genruntimeconfig.cache
 /home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/obj/Debug/net8.0/ref/Profolio.dll
+/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/obj/Debug/net8.0/Profolio.sourcelink.json
