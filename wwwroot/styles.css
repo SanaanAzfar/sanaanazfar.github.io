@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "HomeVideo";
+  src: url("./fonts/HomeVideoBold-R90Dv.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+@keyframes policeTapeSmooth {
+  0% {
+    color: #ffffff;
+    transform: translateX(-50%);
+  }
+  10% {
+    color: #000000;
+  }
+  20% {
+    color: #ffffff;
+  }
+  30% {
+    color: #000000;
+  }
+  40% {
+    color: #ffffff;
+  }
+  50% {
+    color: #000000;
+    transform: translateX(0%);
+  }
+  60% {
+    color: #ffffff;
+  }
+  70% {
+    color: #000000;
+  }
+  80% {
+    color: #ffffff;
+  }
+  90% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+    transform: translateX(50%);
+  }
+}
+@keyframes brickMoveDiagonal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20% 100%;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stone-brick-bg {
+  position: relative;
+  z-index: -1;
+  background-image: url("images/components/stone_bricks.png");
+  background-repeat: repeat;
+  background-size: auto;
+  animation: brickMoveDiagonal 50s linear infinite;
+}
+
+.outset-border {
+  border-style: outset;
+}
+
+.page-container {
+  background-color: #8b5cf6;
+  border-style: outset;
+  margin: 5rem auto;
+  height: 16.6666666667%;
+  width: 83.3333333333%;
+  padding: 1rem;
+  border: 8px solid #374151;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(76, 29, 149, 0.6);
+  border: 8px solid #c084fc;
+  padding: 1rem;
+  border-style: outset;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  padding-inline: 1.5rem;
+  border: 4px solid #c4b5fd;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  border-style: outset;
+  transition: all 200ms cubic-bezier(0, 0, 0.2, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #fbcfe8;
+  background-color: #7c3aed;
+  scale: 1.05;
+}
+
+.hero-banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border: 8px solid #c084fc;
+  border-style: outset;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-avatar {
+  border-radius: 9999px;
+  width: 41.6666666667%;
+  border: 4px solid #3b0764;
+}
+
+.hero-content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-card {
+  padding: 1.25rem;
+  background-color: rgba(59, 7, 100, 0.9);
+  border-radius: 0.5rem;
+  max-width: 42rem;
+}
+
+.hero-card > * + * {
+  margin-top: 1rem;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #818cf8;
+}
+
+.hero-text > * + * {
+  margin-top: 0.5rem;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #93c5fd;
+}
+
+.highlight-location {
+  color: #c084fc;
+  font-weight: 700;
+}
+
+.highlight-skill {
+  color: #8b5cf6;
+  font-weight: 700;
+}
+
+.section-title {
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.police-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+
+.police-tape-animation {
+  display: inline-block;
+  width: 200%;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  font-family: "HomeVideo";
+  animation: policeTapeSmooth 8s linear infinite;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2rem;
+  padding-inline: 1rem;
+  place-items: center;
+}
+@media (width >= 40rem) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-inline: 2rem;
+  }
+}
+@media (width >= 64rem) {
+  .card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-inline: 4rem;
+  }
+}
+
+.folder-card {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  margin-inline: auto;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+.folder-card:hover {
+  scale: 1.05;
+}
+
+.folder-image {
+  position: relative;
+  height: 12rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background-image: url("images/components/folder_closed.png");
+}
+.folder-card:hover .folder-image {
+  background-image: url("images/components/folder_open.png");
+}
+
+.folder-label {
+  text-align: center;
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #ffffff;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.profile-frame {
+  width: 91.6666666667%;
+  height: 91.6666666667%;
+}
+
+/*# sourceMappingURL=styles.css.map */

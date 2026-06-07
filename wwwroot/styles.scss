@@ -1,0 +1,335 @@
+// ============================
+// 1. VARIABLES
+// ============================
+
+// Colors
+$violet-300: #c4b5fd;
+$violet-500: #8b5cf6;
+$violet-600: #7c3aed;
+$violet-700: #6d28d9;
+$violet-800: #5b21b6;
+$violet-900: #4c1d95;
+$violet-950: #3b0764;
+$purple-400: #c084fc;
+$purple-600: #9333ea;
+$purple-950: #3b0764;
+$indigo-400: #818cf8;
+$indigo-950: #1e1b4b;
+$blue-300: #93c5fd;
+$blue-600: #2563eb;
+$pink-200: #fbcfe8;
+$pink-400: #f472b6;
+$gray-200: #e5e7eb;
+$gray-700: #374151;
+$gray-800: #1f2937;
+$white: #ffffff;
+
+// Font stacks
+$font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+// ============================
+// 2. BREAKPOINT MIXINS
+// ============================
+
+@mixin sm {
+  @media (width >= 40rem) { @content; }
+}
+
+@mixin lg {
+  @media (width >= 64rem) { @content; }
+}
+
+@mixin xl {
+  @media (width >= 80rem) { @content; }
+}
+
+// ============================
+// 3. FONT-FACE
+// ============================
+
+@font-face {
+  font-family: 'HomeVideo';
+  src: url('./fonts/HomeVideoBold-R90Dv.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+// ============================
+// 4. KEYFRAME ANIMATIONS
+// ============================
+
+@keyframes policeTapeSmooth {
+  0% { color: $white; transform: translateX(-50%); }
+  10% { color: #000000; }
+  20% { color: $white; }
+  30% { color: #000000; }
+  40% { color: $white; }
+  50% { color: #000000; transform: translateX(0%); }
+  60% { color: $white; }
+  70% { color: #000000; }
+  80% { color: $white; }
+  90% { color: #000000; }
+  100% { color: $white; transform: translateX(50%); }
+}
+
+@keyframes brickMoveDiagonal {
+  0% { background-position: 0 0; }
+  100% { background-position: 20% 100%; }
+}
+
+// ============================
+// 5. GLOBAL STYLES
+// ============================
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stone-brick-bg {
+  position: relative;
+  z-index: -1;
+  background-image: url('images/components/stone_bricks.png');
+  background-repeat: repeat;
+  background-size: auto;
+  animation: brickMoveDiagonal 50s linear infinite;
+}
+
+.outset-border {
+  border-style: outset;
+}
+
+// ============================
+// 6. PAGE CONTAINER
+// ============================
+
+.page-container {
+  background-color: $violet-500;
+  border-style: outset;
+  margin: 5rem auto;
+  height: calc(1/6 * 100%);
+  width: calc(5/6 * 100%);
+  padding: 1rem;
+  border: 8px solid $gray-700;
+}
+
+// ============================
+// 7. NAVBAR
+// ============================
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(76, 29, 149, 0.6);
+  border: 8px solid $purple-400;
+  padding: 1rem;
+  border-style: outset;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  padding-inline: 1.5rem;
+  border: 4px solid $violet-300;
+  background-color: $violet-500;
+  color: $white;
+  font-weight: 700;
+  font-family: $font-mono;
+  border-style: outset;
+  transition: all 200ms cubic-bezier(0, 0, 0.2, 1);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $pink-200;
+    background-color: $violet-600;
+    scale: 1.05;
+  }
+}
+
+// ============================
+// 8. HERO BANNER (HOME PAGE)
+// ============================
+
+.hero-banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border: 8px solid $purple-400;
+  border-style: outset;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-avatar {
+  border-radius: 9999px;
+  width: calc(5/12 * 100%);
+  border: 4px solid $purple-950;
+}
+
+.hero-content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-card {
+  padding: 1.25rem;
+  background-color: rgba(59, 7, 100, 0.9);
+  border-radius: 0.5rem;
+  max-width: 42rem;
+}
+
+.hero-card > * + * {
+  margin-top: 1rem;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: $font-mono;
+  color: $indigo-400;
+}
+
+.hero-text > * + * {
+  margin-top: 0.5rem;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: $font-mono;
+  color: $blue-300;
+}
+
+.highlight-location {
+  color: $purple-400;
+  font-weight: 700;
+}
+
+.highlight-skill {
+  color: $violet-500;
+  font-weight: 700;
+}
+
+// ============================
+// 9. POLICE TAPE SECTION TITLES
+// ============================
+
+.section-title {
+  font-weight: 700;
+  font-family: $font-mono;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.police-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+
+.police-tape-animation {
+  display: inline-block;
+  width: 200%;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  font-family: 'HomeVideo';
+  animation: policeTapeSmooth 8s linear infinite;
+}
+
+// ============================
+// 10. CARD GRID
+// ============================
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2rem;
+  padding-inline: 1rem;
+  place-items: center;
+
+  @include sm {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-inline: 2rem;
+  }
+
+  @include lg {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-inline: 4rem;
+  }
+}
+
+// ============================
+// 11. FOLDER CARD COMPONENT
+// ============================
+
+.folder-card {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  margin-inline: auto;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+
+  &:hover {
+    scale: 1.05;
+  }
+}
+
+.folder-image {
+  position: relative;
+  height: 12rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background-image: url('images/components/folder_closed.png');
+
+  .folder-card:hover & {
+    background-image: url('images/components/folder_open.png');
+  }
+}
+
+.folder-label {
+  text-align: center;
+  font-weight: 700;
+  font-family: $font-mono;
+  color: $white;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+// ============================
+// 12. PROFILE PAGE
+// ============================
+
+.profile-frame {
+  width: calc(11/12 * 100%);
+  height: calc(11/12 * 100%);
+}

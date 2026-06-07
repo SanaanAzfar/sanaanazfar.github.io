@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/extra.css",
-      "PackagePath": "staticwebassets/extra.css"
-    },
-    {
       "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
@@ -21,32 +17,8 @@
       "PackagePath": "staticwebassets/fonts/HomeVideoBold-R90Dv.ttf"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/animation.jpg",
-      "PackagePath": "staticwebassets/images/big_images/animation.jpg"
-    },
-    {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/blender.webp",
-      "PackagePath": "staticwebassets/images/big_images/blender.webp"
-    },
-    {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/draw.jpg",
-      "PackagePath": "staticwebassets/images/big_images/draw.jpg"
-    },
-    {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/godotdev.png",
-      "PackagePath": "staticwebassets/images/big_images/godotdev.png"
-    },
-    {
       "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/herobanner.jpg",
       "PackagePath": "staticwebassets/images/big_images/herobanner.jpg"
-    },
-    {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/jog.jpeg",
-      "PackagePath": "staticwebassets/images/big_images/jog.jpeg"
-    },
-    {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/outer.jpg",
-      "PackagePath": "staticwebassets/images/big_images/outer.jpg"
     },
     {
       "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/sanaan.png",
@@ -57,12 +29,8 @@
       "PackagePath": "staticwebassets/images/components/Board.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Frame square.png",
-      "PackagePath": "staticwebassets/images/components/Frame square.png"
-    },
-    {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Frame_rec.png",
-      "PackagePath": "staticwebassets/images/components/Frame_rec.png"
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Frame.png",
+      "PackagePath": "staticwebassets/images/components/Frame.png"
     },
     {
       "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/folder_closed.png",
@@ -101,12 +69,16 @@
       "PackagePath": "staticwebassets/images/progress bar/bar_low.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/input.css",
-      "PackagePath": "staticwebassets/input.css"
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/output.css",
-      "PackagePath": "staticwebassets/output.css"
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.css.map",
+      "PackagePath": "staticwebassets/styles.css.map"
+    },
+    {
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.scss",
+      "PackagePath": "staticwebassets/styles.scss"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Profolio.Microsoft.AspNetCore.StaticWebAssets.props",
