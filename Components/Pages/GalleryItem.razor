@@ -1,0 +1,93 @@
+@using Microsoft.AspNetCore.Components
+
+<div class="relative inline-block cursor-pointer" @onclick="OpenModal">
+    @if (FrameType == "square")
+    {
+        <img src="images/components/Frame square.png"
+             class="w-72 h-auto block"
+             style="image-rendering: pixelated;">
+    }
+    else
+    {
+        <img src="images/components/Frame_rec.png"
+             class="w-80 h-auto block"
+             style="image-rendering: pixelated;">
+    }
+
+    <div class="absolute top-[6%] left-[3%] right-[3%] bottom-[4%]">
+        <img src="@ImageSrc"
+             class="w-full h-full object-cover rounded-sm"
+             style="image-rendering: auto;">
+    </div>
+
+    <figcaption class="absolute bottom-[-12%] left-0 right-0 text-center font-mono text-white text-base px-4">@Caption</figcaption>
+</div>
+
+@if (showModal)
+{
+    <div class="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" @onclick="CloseModal">
+        <div class="bg-violet-900/95 border-8 border-purple-400 rounded-lg max-w-5xl w-full max-h-[90vh] overflow-y-auto outset_border"
+             @onclick:stopPropagation>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+                <!-- Left: Image -->
+                <div class="relative">
+                    <img src="@ImageSrc"
+                         class="w-full h-auto object-contain rounded"
+                         style="image-rendering: auto;">
+                </div>
+
+                <!-- Right: Title and Description -->
+                <div class="flex flex-col justify-center space-y-4">
+                    <h2 class="text-3xl font-bold font-mono text-indigo-400">@Title</h2>
+                    <p class="text-lg font-mono text-blue-300 leading-relaxed">@Description</p>
+
+                    @if (!string.IsNullOrEmpty(ExtraInfo))
+                    {
+                        <div class="mt-4 p-4 bg-violet-950/50 rounded-lg border-4 border-purple-600">
+                            <p class="text-sm font-mono text-purple-300">@ExtraInfo</p>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Close Button -->
+            <button @onclick="CloseModal"
+                    class="absolute top-4 right-4 text-white hover:text-purple-400 text-4xl font-bold font-mono w-10 h-10 flex items-center justify-center rounded-full bg-violet-800/80 hover:bg-violet-700 transition-colors">
+                ×
+            </button>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string ImageSrc { get; set; } = "";
+
+    [Parameter]
+    public string Caption { get; set; } = "";
+
+    [Parameter]
+    public string FrameType { get; set; } = "rect"; // "rect" or "square"
+
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public string Description { get; set; } = "";
+
+    [Parameter]
+    public string? ExtraInfo { get; set; } = null;
+
+    private bool showModal = false;
+
+    private void OpenModal()
+    {
+        showModal = true;
+    }
+
+    private void CloseModal()
+    {
+        showModal = false;
+    }
+}

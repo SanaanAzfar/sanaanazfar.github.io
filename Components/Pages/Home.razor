@@ -1,0 +1,70 @@
+@page "/"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body class="stone-brick-bg">
+    <div class="bg-violet-500 outset_border m-auto my-20 h-1/6 w-5/6 p-4 border-8 border-gray-700">
+        <NavBar />
+
+        <div class="bg-cover bg-center h-screen border-8 border-purple-400 outset_border" style="background-image:url('images/big_images/herobanner.jpg')">
+            <div class="flex justify-center mt-10 mb-4">
+                <img class="rounded-full w-5/12 border-4 border-purple-950" src="images/gifs/donut.gif" alt="Donut animation">
+            </div>
+
+            <div class="flex justify-center">
+                <div class="space-y-4 p-5 bg-violet-950/90 rounded-lg max-w-2xl">
+                    <h1 class="text-4xl font-bold font-mono text-indigo-400">Hi, my name is Sanaan</h1>
+                    <div class="space-y-2">
+                        <p class="text-2xl font-mono text-blue-300">
+                            I am from <span class="text-purple-400"><b>Islamabad,Pakistan</b></span>. I am pursuing my Bachelor's in <span class="text-purple-400"><strong>Software Engineering</strong></span> from
+                            <span class="text-purple-400"><strong>Fast University, Islamabad.</strong></span> I am a <span class="text-violet-500"><strong>full stack and cross-platform developer</strong></span>. I am fluent in <span class="text-violet-500"><strong>C#, Js/Ts, Kotlin and Rust</strong></span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="police-container">
+            <h1 class="font-bold font-mono text-5xl text-center mt-20 mb-10 police-tape-animation">MORE ABOUT ME</h1>
+        </div>
+
+        <!-- Updated centered grid layout -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8 lg:px-16 place-items-center">
+            <FolderCard
+                Heading="Personal Profile"
+
+                Href="profile" />
+
+            <FolderCard
+                Heading="Gallery Page"
+
+                Href="gallery" />
+
+            <FolderCard
+                Heading="Career Goals"
+
+                Href="career" />
+
+            <FolderCard
+                Heading="Projects"
+
+                Href="project" />
+
+            <FolderCard
+                Heading="Skills/Interests"
+
+                Href="skill" />
+
+            <FolderCard
+                Heading="Contact"
+                Href="contact" />
+        </div>
+    </div>
+</body>
+</html>

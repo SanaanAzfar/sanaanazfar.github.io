@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Profolio
+build_property.RootNamespace = Profolio
+build_property.ProjectDir = /home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Career.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DYXJlZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db250YWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/FolderCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Gb2xkZXJDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Gallery.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9HYWxsZXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/GalleryItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9HYWxsZXJ5SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9OYXZCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Project.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9qZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Pages/Skill.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ta2lsbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sanaanazfar-22i-2594/SELF-WORK/C\#/Profolio/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 

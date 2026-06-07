@@ -1,0 +1,1379 @@
+{
+  "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+  "startTime": "2026-03-26T06:50:06.990Z",
+  "messages": [
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "user",
+      "message": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "hey bud I want you to read all the files in this Blazor WASM project and convert it to normal HTML with javascript in <script> tags and keeping the tailwindcss it was based on old template as in @Old example/ buit changed to razor pages in @Components/  I want you to turn the razor pages back to html with javascript in <script> tags and keep them in a new folder"
+          },
+          {
+            "text": "\n--- Content from referenced files ---"
+          },
+          {
+            "text": "\nContent from /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example:\n"
+          },
+          {
+            "text": "Showing up to 20 items:\n\n/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/\n├───i222594_C_assign01_career.html\n├───i222594_C_assign01_contact.html\n├───i222594_C_assign01_gallery.html\n├───i222594_C_assign01_home.html\n├───i222594_C_assign01_profile.html\n├───i222594_C_assign01_project.html\n├───i222594_C_assign01_skill.html\n├───output.css\n└───images/\n    ├───big_images/\n    │   ├───animation.jpg\n    │   ├───blender.webp\n    │   ├───draw.jpg\n    │   ├───godotdev.png\n    │   ├───herobanner.jpg\n    │   ├───jog.jpeg\n    │   └───outer.jpg\n    │   └───...\n    ├───gifs/\n    ├───icons/\n    └───progress bar/"
+          },
+          {
+            "text": "\nContent from /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components:\n"
+          },
+          {
+            "text": "Showing up to 20 items:\n\n/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/\n├───_Imports.razor\n├───App.razor\n├───Routes.razor\n├───Layout/\n│   └───MainLayout.razor\n└───Pages/\n    ├───Career.razor\n    ├───Contact.razor\n    ├───FolderCard.razor\n    ├───Gallery.razor\n    ├───Home.razor\n    ├───NavBar.razor\n    ├───Profile.razor\n    ├───Project.razor\n    └───Skill.razor"
+          },
+          {
+            "text": "\n--- End of content ---"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "I need to read all the relevant files to understand the current Razor components and the old HTML template structure before I can convert them back to static HTML."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "I'll read all the relevant files to understand the structure and then convert the Razor pages back to static HTML files."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_3b7fffe957eb49578ab2e7c5",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_home.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_home.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_home.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n            <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n            <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_profile.html\">Gallery Page</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_profile.html\">Career Goals</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_profile.html\">Projects</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_profile.html\">Skills & Interests</a></div>\n            <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_profile.html\">Contact Us</a></div>\n            </div>\n        </div>\n        </header>\n        <div class=\" bg-cover bg-center h-screen border-solid border-8 border-purple-400\" style=\"background-image:url('../dist/images/big_images/herobanner.jpg')\">\n        <h1 class=\"text-4xl font-bold font-mono ml-10 mt-5 text-blue-300  bg-violet-950  bg-opacity-60\">Hi, my name is Sanaan</h1>\n        <p class=\" text-lg font-mono ml-10 text-blue-300  bg-violet-950  bg-opacity-60\">As of current I am persuing my education in Bachelor of Science in Software Engineering, form </p>\n        <h1 class=\"font-bold font-mono text-2xl text-indigo-400 ml-10 bg-violet-950  bg-opacity-60\">Fast university, Islamabad.</h1>\n        <p class=\" text-lg font-mono ml-10 text-blue-300  bg-violet-950  bg-opacity-60\">I am a student and am still learing different skills</p>\n        <div class=\" xl:ml-64 sm:ml-10 lg:ml-52\">\n        <image class=\"rounded-full block resize-10  xl:w-9/12 sm:w-96 sm:mr-20  border-4 border-purple-950\" src=\"../dist/images/gifs/donut.gif\" ></image>\n        </div>\n        </div>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">MORE ABOUT ME</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n        <div class=\" sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Personal Profile</p>\n            <image class=\"rounded-full block w-8/12 \" src=\"../dist/images/icons/orange_person.png\" ></image>\n            </div>\n            <p class=\" font-mono ml-4 m-4 mt-1\"> a bit more about myself, my orgin and my education</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Gallery Page</p>\n        <image class=\"rounded-full block w-8/12 \" src=\"../dist/images/icons/album.png\" ></image>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">An album of my hobbies and projects, all that I love and done</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Career Goals</p>\n        <image class=\"rounded-full block w-8/12 \" src=\"../dist/images/icons/career.png\" ></image>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">My plans for manifesting my passion into my career</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Projects</p>\n        <image class=\"rounded-full block w-8/12 \" src=\"../dist/images/icons/cog.png\" ></image>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">Some old an new work I have done over the years and more to come</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Skills/ Interests</p>\n        <image class=\"rounded-full block w-8/12 \" src=\"../dist/images/icons/brain.png\" ></image>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">A list of what I bring to the table mixed with what I like in general</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\" whitespace-nowrap ml-4 font-bold font-mono m-4 mb-0\">Contact Us</p>\n            <image class=\"rounded-full block w-8/12 \" src=\"../dist/images/icons/phone.png\" ></image>\n        </div>\n            <p class=\" font-mono ml-4 m-4 mt-1\">Wanna stay in touch? well here's my number and a bit more ;)</p>\n\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"../dist/images/icons/godot.png\" ></image>\n        </div>\n\n    </div>\n</div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_055ea1de0ee940c99fe1d941",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_profile.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_profile.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_profile.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_Profile</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n            <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n            <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_gallery.html\">Gallery Page</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_career.html\">Career Goals</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_project.html\">Projects</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_skill.html\">Skills & Interests</a></div>\n            <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_contact.html\">Contact Us</a></div>\n            </div>\n        </div>\n        </header>\n        <image src=\"../dist/images/big_images/sanaan.png\" class=\" ml-72  border-4 border-purple-950 rounded-full\"/>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">BIO:</h1>\n        <p class=\" text-lg font-mono  text-violet-950     text-center \">Name: Sanaan Azfar</p>\n        <p class=\" text-lg font-mono  text-violet-950     text-center\">Age: 20</p>\n        <p class=\" text-lg font-mono   text-violet-950     text-center\">Date Of Birth: 7/April/2004</p>\n        <p class=\" text-lg font-mono   text-violet-950     text-center\">Experience: None</p>\n        <p class=\" text-lg font-mono   text-violet-950     text-center\">From: Bahawalpur</p>\n        <p class=\" text-lg font-mono   text-violet-950     text-center\">university: FAST-NUCES</p>\n        <p class=\" text-lg font-mono   text-violet-950     text-center\">Degree: BS- Software Engineering</p>\n        <p class=\" text-lg font-mono   text-violet-950     text-center\">Semester: 5th(22nd)</p>\n        <p class=\" text-lg font-mono  text-violet-950     text-center\">Dream Job: Game Developer</p>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">For Contact</h1>\n        <div class=\"row-3 ml-20\">\n        <div class=\" inline-flex mr-10\"><image class=\"rounded-full block w-16 \" src=\"../dist/images/icons/github.png\" />\n        <p class=\" text-xl font-mono text-gray-800\">Gitub:</p><a href=\"https://github.com/SanaanAzfar\" class=\"text-xl font-mono text-violet-800\">Click Here</a></div>\n            <div class=\" inline-flex mr-10\"><image class=\"rounded-full block w-16 \" src=\"../dist/images/icons/linkdin.png\" />\n            <p class=\" text-xl font-mono text-gray-800\">LinkeDin:</p><a href=\"https://www.linkedin.com/in/sanaan-azfar-51b1322a1/\" class=\"text-xl font-mono text-violet-800\">Click Here</a></div>\n            <div class=\" inline-flex mr-10\"><image class=\"rounded-full block w-16 \" src=\"../dist/images/icons/itch.png\" />\n            <p class=\" text-xl font-mono text-gray-800\">Itch IO:</p><a href=\"https://grimsonenderson.itch.io\" class=\"text-xl font-mono text-violet-800\">Click Here</a></div>\n        </div>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_324486c85e1d4893a87ba835",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_gallery.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_gallery.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_gallery.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n                <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_gallery.html\">Gallery Page</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_career.html\">Career Goals</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_project.html\">Projects</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_skill.html\">Skills & Interests</a></div>\n                    <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_contact.html\">Contact Us</a></div>\n                    </div>\n        </div>\n        </header>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-10 mb-10 \">Gallery</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n        <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n            <image src=\"../dist/images/big_images/blender.webp\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">making model in blender</figcaption></image></div>\n\n            <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <image src=\"../dist/images/big_images/animation.jpg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Studying animation + vfx</figcaption></image></div>\n\n                <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                    <image src=\"../dist/images/big_images/draw.jpg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Learning to draw</figcaption></image></div>\n\n\n                <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                    <image src=\"../dist/images/big_images/godotdev.png\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Learning to Godot development</figcaption></image></div>\n\n\n                    <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                        <image src=\"../dist/images/big_images/jog.jpeg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">going out for jogging</figcaption></image></div>\n\n        <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n            <image src=\"../dist/images/big_images/outer.jpg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Playing Video Games</figcaption></image></div>\n\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"../dist/images/icons/godot.png\" ></image>\n        </div>\n\n    </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_68248e22512948f7847d1422",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_project.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_project.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_project.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n                <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_gallery.html\">Gallery Page</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_career.html\">Career Goals</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_project.html\">Projects</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_skill.html\">Skills & Interests</a></div>\n                    <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_contact.html\">Contact Us</a></div>\n                    </div>\n        </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Projects</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n        <div class=\" sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Cafe Manager</p>\n            </div>\n            <p class=\" font-mono ml-4 m-4 mt-1\">a system to help manag the FASt cafe</p>\n            <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: html, css</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Battle Ship</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">a small game coded in semster 1</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology:C++, glut</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Hostel Manager</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\"> a mobile app for mamanging hostels</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: flutter, figma</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">pixel animation</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">3d animation of hatsune miku rendered in pixels</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: blender</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Sciencetific Calculator</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">a general purpose calculator in with gui</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: java, postman</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\" whitespace-nowrap ml-4 font-bold font-mono m-4 mb-0\">Tekken animation</p>\n        </div>\n            <p class=\" font-mono ml-4 m-4 mt-1\">A small animation of tekken characters fighting ;)</p>\n            <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: Blender</p>\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"../dist/images/icons/godot.png\" ></image>\n        </div>\n\n    </div>\n</div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_a606490311c94c3aaaec716b",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_skill.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_skill.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_skill.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n                <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_gallery.html\">Gallery Page</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_career.html\">Career Goals</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_project.html\">Projects</a></div>\n                    <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_skill.html\">Skills & Interests</a></div>\n                    <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_contact.html\">Contact Us</a></div>\n                    </div>\n        </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Skills</h1>\n        <div class=\"ml-16 sm:ml-4\">\n        <div class=\" object-center-center bg-violet-700 hover:bg-purple-600  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">c++</p>\n            <image class=\"resize-96 \" src=\"../dist/images/progress bar/bar_full.png\" />\n            </div>\n        </div>\n        <div class=\"  bg-violet-700 hover:bg-purple-600   h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Java</p>\n            <image class=\"resize-96 \" src=\"../dist/images/progress bar/bar_low.png\" />\n        </div>\n        </div>\n        <div class=\"  bg-violet-700 hover:bg-purple-600  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">C#</p>\n            <image class=\"resize-96 \" src=\"../dist/images/progress bar/bar_75.png\" />\n        </div>\n        </div>\n        <div class=\"  bg-violet-700 hover:bg-purple-600  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">python</p>\n            <image class=\"resize-96 \" src=\"../dist/images/progress bar/bar_50.png\" />\n        </div>\n        </div>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Interests</h1>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">gamming</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">game development</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">running</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Art</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">animation</p>\n    </div>\n\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"../dist/images/icons/godot.png\" ></image>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_9c99be03e13a4c448f1909d7",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_career.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_career.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_career.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_Profile</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n            <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n            <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_gallery.html\">Gallery Page</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_career.html\">Career Goals</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_project.html\">Projects</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_skill.html\">Skills & Interests</a></div>\n            <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_contact.html\">Contact Us</a></div>\n            </div>\n        </div>\n        </header>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">Short-Term Goals:</h1>\n        <p class=\"  font-mono  text-violet-950 text-center text-xl\">To finish my degree, work hard and learn as much as I can about most things software related</p>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">long-Term Goals:</h1>\n        <p class=\"  font-mono  text-violet-950 text-center text-xl\">To work in a game development company or start my own in pakistan</p>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">Short-Term Goals:</h1>\n        <p class=\"  font-mono font-bold text-violet-950 text-center text-2xl\">\"By the help of God and will of man, nothing is impossible\"</p>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_c1dfc06ff7174f399b153485",
+        "kind": "read",
+        "title": "ReadFile: Old example/i222594_C_assign01_contact.html",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_contact.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/i222594_C_assign01_contact.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_Profile</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\" columns-2 font-bold  mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400 \">\n                <image class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"../dist/images/icons/c++.png\" ></image>\n                <image src=\"../dist/images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\"></image>\n            <div class=\" columns-7  font-bold font-mono  sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm \"><a href=\"i222594_C_assign01_profile.html\">Personal Profile</a></div>\n            <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_gallery.html\">Gallery Page</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_career.html\">Career Goals</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_project.html\">Projects</a></div>\n            <div class=\" text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_skill.html\">Skills & Interests</a></div>\n            <div class=\"  text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"i222594_C_assign01_contact.html\">Contact Us</a></div>\n            </div>\n        </div>\n        </header>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">BIO:</h1>\n        <form class=\"\">\n            <div class=\"grid-cols-5  bg-indigo-400 border-indigo-950 border-4 bg-opacity-30 rounded-xl\">\n            <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Name:</label>\n            <input type=\"text\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"> </div>\n                <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Email:</label>\n                <input type=\"email\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"> </div>\n                <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Subject:</label>\n                    <input type=\"text\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"> </div>\n                    <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Message:</label>\n                        <textarea type=\"text\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\" ></textarea> </div>\n                        <button type=\"submit\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 font-mono font-bold text-white bg-purple-600 hover:bg-purple-400 rounded-lg ml-96\">SUBMIT</button>\n                        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">Contact:</h1>\n                        <div class=\"flex-inline  mt-4\"><p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4 mt-8\">Phone NUmber: 0333-69-55-429</p>\n                            <div class=\"flex-inline  mt-4\"><p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4\">Email: sanaanazfar742004@gamil.com</p>\n                        </div>\n\n        </form>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_ffed3f8a944647b180773f0e",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Home.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Home.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Home.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/\"\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Home</title>\n</head>\n\n<body class=\"stone-brick-bg\">\n    <div class=\"bg-violet-500 outset_border m-auto my-20 h-1/6 w-5/6 p-4 border-8 border-gray-700\">\n        <NavBar />\n\n        <div class=\"bg-cover bg-center h-screen border-8 border-purple-400 outset_border\" style=\"background-image:url('images/big_images/herobanner.jpg')\">\n            <div class=\"flex justify-center mt-10 mb-4\">\n                <img class=\"rounded-full w-5/12 border-4 border-purple-950\" src=\"images/gifs/donut.gif\" alt=\"Donut animation\">\n            </div>\n\n            <div class=\"flex justify-center\">\n                <div class=\"space-y-4 p-5 bg-violet-950/90 rounded-lg max-w-2xl\">\n                    <h1 class=\"text-4xl font-bold font-mono text-indigo-400\">Hi, my name is Sanaan</h1>\n                    <div class=\"space-y-2\">\n                        <p class=\"text-2xl font-mono text-blue-300\">\n                            I am from <span class=\"text-purple-400\"><b>Islamabad,Pakistan</b></span>. I am pursuing my Bachelor's in <span class=\"text-purple-400\"><strong>Software Engineering</strong></span> from\n                            <span class=\"text-purple-400\"><strong>Fast University, Islamabad.</strong></span> I am a <span class=\"text-violet-500\"><strong>full stack and cross-platform developer</strong></span>. I am fluent in <span class=\"text-violet-500\"><strong>C#, Kotlin and Rust</strong></span>.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"police-container\">\n            <h1 class=\"font-bold font-mono text-5xl text-center mt-20 mb-10 police-tape-animation\">MORE ABOUT ME</h1>\n        </div>\n\n        <!-- Updated centered grid layout -->\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8 lg:px-16 place-items-center\">\n            <FolderCard\n                Heading=\"Personal Profile\"\n\n                Href=\"profile\" />\n\n            <FolderCard\n                Heading=\"Gallery Page\"\n\n                Href=\"gallery\" />\n\n            <FolderCard\n                Heading=\"Career Goals\"\n\n                Href=\"career\" />\n\n            <FolderCard\n                Heading=\"Projects\"\n\n                Href=\"project\" />\n\n            <FolderCard\n                Heading=\"Skills/Interests\"\n\n                Href=\"skill\" />\n\n            <FolderCard\n                Heading=\"Contact\"\n                Href=\"contact\" />\n        </div>\n    </div>\n</body>\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_b0e9316ba01f46ec8d25ac15",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Profile.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Profile.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Profile.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/profile\"\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Home</title>\n</head>\n\n<body class=\"stone-brick-bg\">\n    <div class=\"bg-violet-500 outset_border m-auto my-20 h-1/6 w-5/6 p-4 border-8 border-gray-700\"></div>\n        <NavBar />\n\n\n</body>\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_ad33e9ef37f04114a3c3d3ef",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Gallery.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Gallery.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Gallery.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/gallery\"\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n<NavBar/>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-10 mb-10 \">Gallery</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n        <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n            <image src=\"images/big_images/blender.webp\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">making model in blender</figcaption></image></div>\n\n            <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <image src=\"images/big_images/animation.jpg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Studying animation + vfx</figcaption></image></div>\n\n                <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                    <image src=\"images/big_images/draw.jpg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Learning to draw</figcaption></image></div>\n\n\n                <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                    <image src=\"images/big_images/godotdev.png\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Learning to Godot development</figcaption></image></div>\n\n\n                    <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                        <image src=\"images/big_images/jog.jpeg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">going out for jogging</figcaption></image></div>\n\n        <div class=\"sm:w-32  xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n            <image src=\"images/big_images/outer.jpg\" class=\" rounded-t-3xl border-b-4 border-gray-800\" ><figcaption class=\" text-center font-mono\">Playing Video Games</figcaption></image></div>\n\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"images/icons/godot.png\" ></image>\n        </div>\n\n    </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_99c3a3fe71ea47f480d701c7",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Project.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Project.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Project.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/project\"\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n<NavBar/>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Projects</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4 \">\n        <div class=\" sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Cafe Manager</p>\n            </div>\n            <p class=\" font-mono ml-4 m-4 mt-1\">a system to help manag the FASt cafe</p>\n            <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: html, css</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Battle Ship</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">a small game coded in semster 1</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology:C++, glut</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Hostel Manager</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\"> a mobile app for mamanging hostels</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: flutter, figma</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">pixel animation</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">3d animation of hatsune miku rendered in pixels</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: blender</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Sciencetific Calculator</p>\n        </div>\n        <p class=\" font-mono ml-4 m-4 mt-1\">a general purpose calculator in with gui</p>\n        <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: java, postman</p>\n        </div>\n        <div class=\"sm:w-32  bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\" whitespace-nowrap ml-4 font-bold font-mono m-4 mb-0\">Tekken animation</p>\n        </div>\n            <p class=\" font-mono ml-4 m-4 mt-1\">A small animation of tekken characters fighting ;)</p>\n            <p class=\" font-mono ml-4 m-4 mt-1  font-bold\">Technology: Blender</p>\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"images/icons/godot.png\" ></image>\n        </div>\n\n    </div>\n</div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_3c6ec2e0f7bd4e2cbcce9b2d",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Skill.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Skill.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Skill.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/skill\"\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_home</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n<NavBar/>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Skills</h1>\n        <div class=\"ml-16 sm:ml-4\">\n        <div class=\" object-center-center bg-violet-700 hover:bg-purple-600  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">c++</p>\n            <image class=\"resize-96 \" src=\"images/progress bar/bar_full.png\" />\n            </div>\n        </div>\n        <div class=\"  bg-violet-700 hover:bg-purple-600   h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Java</p>\n            <image class=\"resize-96 \" src=\"images/progress bar/bar_low.png\" />\n        </div>\n        </div>\n        <div class=\"  bg-violet-700 hover:bg-purple-600  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">C#</p>\n            <image class=\"resize-96 \" src=\"images/progress bar/bar_75.png\" />\n        </div>\n        </div>\n        <div class=\"  bg-violet-700 hover:bg-purple-600  h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n            <div class=\" columns-2\">\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0\">python</p>\n            <image class=\"resize-96 \" src=\"images/progress bar/bar_50.png\" />\n        </div>\n        </div>\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Interests</h1>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">gamming</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">game development</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">running</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Art</p>\n        <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">animation</p>\n    </div>\n\n        <image class=\"rounded-full block w-1/12 absolute left-16 \" src=\"images/icons/godot.png\" ></image>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_2cd646c76aab4518a8fd4fe6",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Career.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Career.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Career.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/career\"\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_Profile</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n<NavBar/>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">Short-Term Goals:</h1>\n        <p class=\"  font-mono  text-violet-950 text-center text-xl\">To finish my degree, work hard and learn as much as I can about most things software related</p>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">long-Term Goals:</h1>\n        <p class=\"  font-mono  text-violet-950 text-center text-xl\">To work in a game development company or start my own in pakistan</p>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">Short-Term Goals:</h1>\n        <p class=\"  font-mono font-bold text-violet-950 text-center text-2xl\">\"By the help of God and will of man, nothing is impossible\"</p>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_5471cba3c14b4242b0cc77f2",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Contact.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Contact.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Contact.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/contact\"\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>i222594_C_assign01_Profile</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n\n</head>\n\n<body class=\" bg-violet-300\">\n    <div class=\" bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8  border-gray-800 m4 rounded-3xl\">\n<NavBar/>\n        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">BIO:</h1>\n        <form class=\"\">\n            <div class=\"grid-cols-5  bg-indigo-400 border-indigo-950 border-4 bg-opacity-30 rounded-xl\">\n            <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Name:</label>\n            <input type=\"text\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"> </div>\n                <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Email:</label>\n                <input type=\"email\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"> </div>\n                <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Subject:</label>\n                    <input type=\"text\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"> </div>\n                    <div class=\"flex-inline  mt-4\"><label id=\"fname\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Message:</label>\n                        <textarea type=\"text\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\" ></textarea> </div>\n                        <button type=\"submit\" id=\"fname\" name=\"fname required\" class=\"border-2 border-violet-950 font-mono font-bold text-white bg-purple-600 hover:bg-purple-400 rounded-lg ml-96\">SUBMIT</button>\n                        <h1 class=\"text-4xl font-bold font-mono  mt-5 text-violet-950    bg-opacity-60 underline text-center \">Contact:</h1>\n                        <div class=\"flex-inline  mt-4\"><p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4 mt-8\">Phone NUmber: 0333-69-55-429</p>\n                            <div class=\"flex-inline  mt-4\"><p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4\">Email: sanaanazfar742004@gamil.com</p></div>\n                        </div>\n           </div>\n        </form>\n        </div>\n</body>\n\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_0269620dc86e4c92ace18a76",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/NavBar.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/NavBar.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/NavBar.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249018,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "<header>\n  <div class=\"flex items-center justify-center bg-violet-900/60 border-8 border-purple-400 p-4 outset_border\">\n    <!-- Navigation Menu -->\n    <nav class=\"flex flex-wrap gap-4 justify-center items-center\">\n      <a href=\"/\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Home\n      </a>\n\n      <a href=\"profile\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Profile\n      </a>\n\n      <a href=\"gallery\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Gallery\n      </a>\n\n      <a href=\"career\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Career\n      </a>\n\n      <a href=\"project\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Projects\n      </a>\n\n      <a href=\"skill\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Skills\n      </a>\n\n      <a href=\"contact\" class=\"flex items-center justify-center h-10 px-6 border-4 border-violet-300 bg-violet-500 text-white font-bold font-mono hover:text-pink-200 hover:bg-violet-600 transition-all duration-200 ease-out outset_border hover:scale-105\">\n        Contact\n      </a>\n    </nav>\n  </div>\n</header>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_279ab49e205b407bb580c437",
+        "kind": "read",
+        "title": "ReadFile: Components/Layout/MainLayout.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Layout/MainLayout.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Layout/MainLayout.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@inherits LayoutComponentBase\n\n@Body\n"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2f5025bc-832d-49a4-9b85-e848507d1144",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:19.764Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_b39dc86913a448eba3b8f46f",
+        "kind": "read",
+        "title": "ReadFile: Old example/output.css",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/output.css"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/output.css",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Showing lines 1-1000 of 1072 total lines.\n\n---\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}\n\n/*\n! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com\n*/\n\n/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n  /* 1 */\n  border-width: 0;\n  /* 2 */\n  border-style: solid;\n  /* 2 */\n  border-color: #e5e7eb;\n  /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host {\n  line-height: 1.5;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n  -moz-tab-size: 4;\n  /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4;\n  /* 3 */\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 4 */\n  font-feature-settings: normal;\n  /* 5 */\n  font-variation-settings: normal;\n  /* 6 */\n  -webkit-tap-highlight-color: transparent;\n  /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0;\n  /* 1 */\n  line-height: inherit;\n  /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  border-top-width: 1px;\n  /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n  /* 1 */\n  font-feature-settings: normal;\n  /* 2 */\n  font-variation-settings: normal;\n  /* 3 */\n  font-size: 1em;\n  /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0;\n  /* 1 */\n  border-color: inherit;\n  /* 2 */\n  border-collapse: collapse;\n  /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-feature-settings: inherit;\n  /* 1 */\n  font-variation-settings: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  font-weight: inherit;\n  /* 1 */\n  line-height: inherit;\n  /* 1 */\n  letter-spacing: inherit;\n  /* 1 */\n  color: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n  padding: 0;\n  /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\ninput:where([type='button']),\ninput:where([type='reset']),\ninput:where([type='submit']) {\n  -webkit-appearance: button;\n  /* 1 */\n  background-color: transparent;\n  /* 2 */\n  background-image: none;\n  /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\n\ndialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block;\n  /* 1 */\n  vertical-align: middle;\n  /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n\n[hidden] {\n  display: none;\n}\n\n.absolute {\n  position: absolute;\n}\n\n.left-16 {\n  left: 4rem;\n}\n\n.right-14 {\n  right: 3.5rem;\n}\n\n.top-0\\.5 {\n  top: 0.125rem;\n}\n\n.m-4 {\n  margin: 1rem;\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.m-6 {\n  margin: 1.5rem;\n}\n\n.m-20 {\n  margin: 5rem;\n}\n\n.m-24 {\n  margin: 6rem;\n}\n\n.-ml-28 {\n  margin-left: -7rem;\n}\n\n.mb-0 {\n  margin-bottom: 0px;\n}\n\n.mb-10 {\n  margin-bottom: 2.5rem;\n}\n\n.mb-4 {\n  margin-bottom: 1rem;\n}\n\n.ml-10 {\n  margin-left: 2.5rem;\n}\n\n.ml-16 {\n  margin-left: 4rem;\n}\n\n.ml-20 {\n  margin-left: 5rem;\n}\n\n.ml-4 {\n  margin-left: 1rem;\n}\n\n.ml-72 {\n  margin-left: 18rem;\n}\n\n.mr-10 {\n  margin-right: 2.5rem;\n}\n\n.mt-1 {\n  margin-top: 0.25rem;\n}\n\n.mt-10 {\n  margin-top: 2.5rem;\n}\n\n.mt-20 {\n  margin-top: 5rem;\n}\n\n.mt-4 {\n  margin-top: 1rem;\n}\n\n.mt-5 {\n  margin-top: 1.25rem;\n}\n\n.ml-64 {\n  margin-left: 16rem;\n}\n\n.mt-8 {\n  margin-top: 2rem;\n}\n\n.ml-96 {\n  margin-left: 24rem;\n}\n\n.box-border {\n  box-sizing: border-box;\n}\n\n.block {\n  display: block;\n}\n\n.inline-flex {\n  display: inline-flex;\n}\n\n.table {\n  display: table;\n}\n\n.h-1\\/6 {\n  height: 16.666667%;\n}\n\n.h-2\\.5 {\n  height: 0.625rem;\n}\n\n.h-auto {\n  height: auto;\n}\n\n.h-screen {\n  height: 100vh;\n}\n\n.w-1\\/12 {\n  width: 8.333333%;\n}\n\n.w-16 {\n  width: 4rem;\n}\n\n.w-20 {\n  width: 5rem;\n}\n\n.w-5\\/6 {\n  width: 83.333333%;\n}\n\n.w-8\\/12 {\n  width: 66.666667%;\n}\n\n.scale-50 {\n  --tw-scale-x: .5;\n  --tw-scale-y: .5;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.columns-2 {\n  -moz-columns: 2;\n       columns: 2;\n}\n\n.columns-3 {\n  -moz-columns: 3;\n       columns: 3;\n}\n\n.columns-7 {\n  -moz-columns: 7;\n       columns: 7;\n}\n\n.columns-5 {\n  -moz-columns: 5;\n       columns: 5;\n}\n\n.grid-cols-5 {\n  grid-template-columns: repeat(5, minmax(0, 1fr));\n}\n\n.grid-rows-2 {\n  grid-template-rows: repeat(2, minmax(0, 1fr));\n}\n\n.whitespace-nowrap {\n  white-space: nowrap;\n}\n\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n\n.rounded-full {\n  border-radius: 9999px;\n}\n\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n\n.rounded-t-3xl {\n  border-top-left-radius: 1.5rem;\n  border-top-right-radius: 1.5rem;\n}\n\n.border-2 {\n  border-width: 2px;\n}\n\n.border-4 {\n  border-width: 4px;\n}\n\n.border-8 {\n  border-width: 8px;\n}\n\n.border-b-4 {\n  border-bottom-width: 4px;\n}\n\n.border-b-8 {\n  border-bottom-width: 8px;\n}\n\n.border-r-4 {\n  border-right-width: 4px;\n}\n\n.border-r-8 {\n  border-right-width: 8px;\n}\n\n.border-solid {\n  border-style: solid;\n}\n\n.border-gray-800 {\n  --tw-border-opacity: 1;\n  border-color: rgb(31 41 55 / var(--tw-border-opacity));\n}\n\n.border-purple-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(192 132 252 / var(--tw-border-opacity));\n}\n\n.border-purple-950 {\n  --tw-border-opacity: 1;\n  border-color: rgb(59 7 100 / var(--tw-border-opacity));\n}\n\n.border-violet-950 {\n  --tw-border-opacity: 1;\n  border-color: rgb(46 16 101 / var(--tw-border-opacity));\n}\n\n.border-indigo-950 {\n  --tw-border-opacity: 1;\n  border-color: rgb(30 27 75 / var(--tw-border-opacity));\n}\n\n.bg-blue-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(37 99 235 / var(--tw-bg-opacity));\n}\n\n.bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity));\n}\n\n.bg-violet-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(196 181 253 / var(--tw-bg-opacity));\n}\n\n.bg-violet-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(139 92 246 / var(--tw-bg-opacity));\n}\n\n.bg-violet-700 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(109 40 217 / var(--tw-bg-opacity));\n}\n\n.bg-violet-950 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(46 16 101 / var(--tw-bg-opacity));\n}\n\n.bg-pink-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(244 114 182 / var(--tw-bg-opacity));\n}\n\n.bg-purple-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(192 132 252 / var(--tw-bg-opacity));\n}\n\n.bg-indigo-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(129 140 248 / var(--tw-bg-opacity));\n}\n\n.bg-purple-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 51 234 / var(--tw-bg-opacity));\n}\n\n.bg-opacity-30 {\n  --tw-bg-opacity: 0.3;\n}\n\n.bg-opacity-60 {\n  --tw-bg-opacity: 0.6;\n}\n\n.bg-cover {\n  background-size: cover;\n}\n\n.bg-center {\n  background-position: center;\n}\n\n.p-4 {\n  padding: 1rem;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.font-mono {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n.font-sans {\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n}\n\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n\n.text-4xl {\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n}\n\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n\n.font-bold {\n  font-weight: 700;\n}\n\n.text-blue-300 {\n  --tw-text-opacity: 1;\n  color: rgb(147 197 253 / var(--tw-text-opacity));\n}\n\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.text-indigo-400 {\n  --tw-text-opacity: 1;\n  color: rgb(129 140 248 / var(--tw-text-opacity));\n}\n\n.text-violet-800 {\n  --tw-text-opacity: 1;\n  color: rgb(91 33 182 / var(--tw-text-opacity));\n}\n\n.text-violet-950 {\n  --tw-text-opacity: 1;\n  color: rgb(46 16 101 / var(--tw-text-opacity));\n}\n\n.text-pink-200 {\n  --tw-text-opacity: 1;\n  color: rgb(251 207 232 / var(--tw-text-opacity));\n}\n\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.underline {\n  text-decoration-line: underline;\n}\n\n.hover\\:bg-purple-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 51 234 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-purple-400:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(192 132 252 / var(--tw-bg-opacity));\n}\n\n.hover\\:text-pink-200:hover {\n  --tw-text-opacity: 1;\n  color: rgb(251 207 232 / var(--tw-text-opacity));\n}\n\n@media (min-width: 640px) {\n  .sm\\:invisible {\n    visibility: hidden;"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f0cd7949-b294-48ba-ac44-aec0d78b3052",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:42.144Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "I need to read the remaining components (FolderCard.razor and _Imports.razor) and check the wwwroot structure to fully understand what needs to be converted to static HTML."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f0cd7949-b294-48ba-ac44-aec0d78b3052",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:42.144Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "Now let me read the FolderCard component and check the wwwroot structure:"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f0cd7949-b294-48ba-ac44-aec0d78b3052",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:42.144Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_7e794510c3c14f9fb1a5b7af",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/FolderCard.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/FolderCard.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/FolderCard.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@rendermode InteractiveWebAssembly\n\n<a href=\"@Href\"\n   class=\"block w-full max-w-xs mx-auto transition-all duration-300 hover:scale-105\"\n   @onmouseenter=\"() => OnHover(true)\"\n   @onmouseleave=\"() => OnHover(false)\">\n    <div class=\"relative h-48\"\n         style=\"@GetBackgroundStyles(IsHovered)\">\n    </div>\n    <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">@Heading</p>\n</a>\n\n@code {\n    private bool IsHovered { get; set; } = false;\n\n    [Parameter]\n    public string Heading { get; set; } = string.Empty;\n\n    [Parameter]\n    public string Text { get; set; } = string.Empty;\n\n    [Parameter]\n    public string Href { get; set; } = string.Empty;\n\n    private void OnHover(bool isHovered)\n    {\n        IsHovered = isHovered;\n        StateHasChanged(); // Add this - WASM needs explicit refresh\n    }\n\n    private string GetBackgroundStyles(bool hovered)\n    {\n        var baseStyles = \"background-size: contain; background-repeat: no-repeat; background-position: center; image-rendering: pixelated; image-rendering: crisp-edges;\";\n        var image = hovered ? \"folder_open.png\" : \"folder_closed.png\";\n\n        // Ensure the path is correct for WASM\n        // WASM serves files from the wwwroot folder\n        var imagePath = $\"images/components/{image}\";\n\n        return $\"{baseStyles} background-image: url('{imagePath}');\";\n    }\n}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f0cd7949-b294-48ba-ac44-aec0d78b3052",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:42.144Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_1ba9f15e14fa4caf8e43e7cb",
+        "kind": "search",
+        "title": "ListFiles: wwwroot",
+        "status": "completed",
+        "rawInput": {
+          "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot"
+        },
+        "locations": [],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Directory listing for /home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot:\n[DIR] fonts\n[DIR] images\nextra.css\nfavicon.png\ninput.css\noutput.css"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f0cd7949-b294-48ba-ac44-aec0d78b3052",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:42.144Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_d8a966a9c5544c098e0001e9",
+        "kind": "read",
+        "title": "ReadFile: Components/Pages/Home.razor",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Home.razor"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/Pages/Home.razor",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "@page \"/\"\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Home</title>\n</head>\n\n<body class=\"stone-brick-bg\">\n    <div class=\"bg-violet-500 outset_border m-auto my-20 h-1/6 w-5/6 p-4 border-8 border-gray-700\">\n        <NavBar />\n\n        <div class=\"bg-cover bg-center h-screen border-8 border-purple-400 outset_border\" style=\"background-image:url('images/big_images/herobanner.jpg')\">\n            <div class=\"flex justify-center mt-10 mb-4\">\n                <img class=\"rounded-full w-5/12 border-4 border-purple-950\" src=\"images/gifs/donut.gif\" alt=\"Donut animation\">\n            </div>\n\n            <div class=\"flex justify-center\">\n                <div class=\"space-y-4 p-5 bg-violet-950/90 rounded-lg max-w-2xl\">\n                    <h1 class=\"text-4xl font-bold font-mono text-indigo-400\">Hi, my name is Sanaan</h1>\n                    <div class=\"space-y-2\">\n                        <p class=\"text-2xl font-mono text-blue-300\">\n                            I am from <span class=\"text-purple-400\"><b>Islamabad,Pakistan</b></span>. I am pursuing my Bachelor's in <span class=\"text-purple-400\"><strong>Software Engineering</strong></span> from\n                            <span class=\"text-purple-400\"><strong>Fast University, Islamabad.</strong></span> I am a <span class=\"text-violet-500\"><strong>full stack and cross-platform developer</strong></span>. I am fluent in <span class=\"text-violet-500\"><strong>C#, Kotlin and Rust</strong></span>.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"police-container\">\n            <h1 class=\"font-bold font-mono text-5xl text-center mt-20 mb-10 police-tape-animation\">MORE ABOUT ME</h1>\n        </div>\n\n        <!-- Updated centered grid layout -->\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8 lg:px-16 place-items-center\">\n            <FolderCard\n                Heading=\"Personal Profile\"\n\n                Href=\"profile\" />\n\n            <FolderCard\n                Heading=\"Gallery Page\"\n\n                Href=\"gallery\" />\n\n            <FolderCard\n                Heading=\"Career Goals\"\n\n                Href=\"career\" />\n\n            <FolderCard\n                Heading=\"Projects\"\n\n                Href=\"project\" />\n\n            <FolderCard\n                Heading=\"Skills/Interests\"\n\n                Href=\"skill\" />\n\n            <FolderCard\n                Heading=\"Contact\"\n                Href=\"contact\" />\n        </div>\n    </div>\n</body>\n</html>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ce7a3da9-9e35-42e3-9186-e3f1c1c32671",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:48.182Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "I need to check the CSS files and images structure in wwwroot to understand the complete styling and asset setup for the conversion."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ce7a3da9-9e35-42e3-9186-e3f1c1c32671",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:48.182Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "Let me check the output.css for the complete styles and look at the images structure:"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ce7a3da9-9e35-42e3-9186-e3f1c1c32671",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:48.182Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_aa8a0a9a0265442b98945a93",
+        "kind": "read",
+        "title": "ReadFile: Old example/output.css (lines 1001-1100)",
+        "status": "completed",
+        "rawInput": {
+          "absolute_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/output.css",
+          "offset": 1000,
+          "limit": 100
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/output.css",
+            "line": 1000
+          }
+        ],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Showing lines 1001-1072 of 1072 total lines.\n\n---\n\n  }\n\n  .sm\\:-ml-60 {\n    margin-left: -15rem;\n  }\n\n  .sm\\:ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .sm\\:ml-4 {\n    margin-left: 1rem;\n  }\n\n  .sm\\:mr-20 {\n    margin-right: 5rem;\n  }\n\n  .sm\\:w-32 {\n    width: 8rem;\n  }\n\n  .sm\\:w-96 {\n    width: 24rem;\n  }\n\n  .sm\\:gap-6 {\n    gap: 1.5rem;\n  }\n\n  .sm\\:text-xs {\n    font-size: 0.75rem;\n    line-height: 1rem;\n  }\n}\n\n@media (min-width: 1024px) {\n  .lg\\:ml-52 {\n    margin-left: 13rem;\n  }\n}\n\n@media (min-width: 1280px) {\n  .xl\\:visible {\n    visibility: visible;\n  }\n\n  .xl\\:-ml-52 {\n    margin-left: -13rem;\n  }\n\n  .xl\\:ml-64 {\n    margin-left: 16rem;\n  }\n\n  .xl\\:w-64 {\n    width: 16rem;\n  }\n\n  .xl\\:w-9\\/12 {\n    width: 75%;\n  }\n\n  .xl\\:gap-12 {\n    gap: 3rem;\n  }\n\n  .xl\\:text-sm {\n    font-size: 0.875rem;\n    line-height: 1.25rem;\n  }\n}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ce7a3da9-9e35-42e3-9186-e3f1c1c32671",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:48.182Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_53097e3f58934804b328aa59",
+        "kind": "search",
+        "title": "ListFiles: wwwroot/images",
+        "status": "completed",
+        "rawInput": {
+          "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot/images"
+        },
+        "locations": [],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Directory listing for /home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot/images:\n[DIR] big_images\n[DIR] components\n[DIR] gifs\n[DIR] icons\n[DIR] progress bar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "78d56a29-b4d8-4dfd-9e52-31185b79c3d2",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:56.662Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "Now that I have all the file contents, I need to create a structured plan using todo_write to track the conversion of each Razor page to static HTML."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2528b04e-9ba7-4d8f-baf0-16e71336986e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:56.724Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "Now I have all the information I need. Let me create the static HTML files in a new folder. I'll create a `static-html` folder with all the converted pages:"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2528b04e-9ba7-4d8f-baf0-16e71336986e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:50:56.724Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "2528b04e-9ba7-4d8f-baf0-16e71336986e",
+        "kind": "todowrite",
+        "title": "TodoWrite",
+        "status": "completed",
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "- [-] Create static-html folder structure\n- [ ] Convert Home.razor to index.html\n- [ ] Convert Profile.razor to profile.html\n- [ ] Convert Gallery.razor to gallery.html\n- [ ] Convert Career.razor to career.html\n- [ ] Convert Project.razor to project.html\n- [ ] Convert Skill.razor to skill.html\n- [ ] Convert Contact.razor to contact.html"
+            }
+          }
+        ],
+        "timestamp": 1774507856724
+      }
+    },
+    {
+      "uuid": "006c26d3-134d-4841-8b9e-e5766fe698c6",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:51:02.044Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "Now I need to create the static-html folder and its subdirectories to organize the converted HTML files."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "006c26d3-134d-4841-8b9e-e5766fe698c6",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:51:02.044Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_797c035fba264736825553b1",
+        "kind": "other",
+        "title": "create_directory",
+        "status": "failed",
+        "rawInput": {
+          "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html"
+        },
+        "locations": [],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Tool \"create_directory\" not found in registry. Tools must use the exact names that are registered. Did you mean one of: \"list_directory\", \"save_memory\", \"read_file\"?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "006c26d3-134d-4841-8b9e-e5766fe698c6",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:51:02.044Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_5c188c54932c481083cbe797",
+        "kind": "other",
+        "title": "create_directory",
+        "status": "failed",
+        "rawInput": {
+          "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/images"
+        },
+        "locations": [],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Tool \"create_directory\" not found in registry. Tools must use the exact names that are registered. Did you mean one of: \"list_directory\", \"save_memory\", \"read_file\"?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d2f43cfa-b0af-413c-a9ad-ffba7dbe61d7",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:51:13.073Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "Since the create_directory tool is not available, I'll use run_shell_command with mkdir -p to create the required folder structure."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d2f43cfa-b0af-413c-a9ad-ffba7dbe61d7",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:51:13.073Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_f4136287e4ea40ac9e9c1738",
+        "kind": "execute",
+        "title": "Shell: mkdir -p /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html (Create static-html output directory)",
+        "status": "completed",
+        "rawInput": {
+          "command": "mkdir -p /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html",
+          "description": "Create static-html output directory",
+          "is_background": false
+        },
+        "locations": [],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Command: mkdir -p /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html\nDirectory: (root)\nOutput: (empty)\nError: (none)\nExit Code: 0\nSignal: (none)\nBackground PIDs: 62324\nProcess Group PGID: (none)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "92fdb0dc-b635-483a-b6d4-9b9788363537",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:52:35.950Z",
+      "type": "user",
+      "message": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "hey bud I want you to read all the files in this Blazor WASM project and convert it to normal HTML with javascript in <script> tags and keeping the tailwindcss it was based on old template as in @Old example/ buit changed to razor pages in @Components/  I want you to turn the razor pages back to html with javascript in <script> tags and keep them in a new folder"
+          },
+          {
+            "text": "\n--- Content from referenced files ---"
+          },
+          {
+            "text": "\nContent from /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example:\n"
+          },
+          {
+            "text": "Showing up to 20 items:\n\n/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old example/\n├───i222594_C_assign01_career.html\n├───i222594_C_assign01_contact.html\n├───i222594_C_assign01_gallery.html\n├───i222594_C_assign01_home.html\n├───i222594_C_assign01_profile.html\n├───i222594_C_assign01_project.html\n├───i222594_C_assign01_skill.html\n├───output.css\n└───images/\n    ├───big_images/\n    │   ├───animation.jpg\n    │   ├───blender.webp\n    │   ├───draw.jpg\n    │   ├───godotdev.png\n    │   ├───herobanner.jpg\n    │   ├───jog.jpeg\n    │   └───outer.jpg\n    │   └───...\n    ├───gifs/\n    ├───icons/\n    └───progress bar/"
+          },
+          {
+            "text": "\nContent from /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components:\n"
+          },
+          {
+            "text": "Showing up to 20 items:\n\n/home/sanaanazfar-22i-2594/WORK/C#/Profolio/Components/\n├───_Imports.razor\n├───App.razor\n├───Routes.razor\n├───Layout/\n│   └───MainLayout.razor\n└───Pages/\n    ├───Career.razor\n    ├───Contact.razor\n    ├───FolderCard.razor\n    ├───Gallery.razor\n    ├───Home.razor\n    ├───NavBar.razor\n    ├───Profile.razor\n    ├───Project.razor\n    └───Skill.razor"
+          },
+          {
+            "text": "\n--- End of content ---"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "92fdb0dc-b635-483a-b6d4-9b9788363537",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:52:35.950Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "The user wants me to convert the Razor pages back to static HTML files. I need to create the static-html folder and then write all the HTML files with the navbar embedded and JavaScript for interactivity. Let me proceed with creating the files."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "92fdb0dc-b635-483a-b6d4-9b9788363537",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:52:35.950Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "Now let me create all the static HTML files. I'll convert the Razor pages back to HTML with JavaScript for the interactive elements:"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "92fdb0dc-b635-483a-b6d4-9b9788363537",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:52:35.950Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_33cc5bddbaf54d29951a7494",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/index.html",
+        "status": "completed",
+        "rawInput": {
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/index.html",
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Home - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n    <style>\n        .folder-card {\n            transition: transform 0.3s ease;\n        }\n        .folder-card:hover {\n            transform: scale(1.05);\n        }\n        .folder-image {\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            image-rendering: pixelated;\n            image-rendering: crisp-edges;\n            transition: background-image 0.3s ease;\n        }\n        .folder-closed {\n            background-image: url('images/components/folder_closed.png');\n        }\n        .folder-open {\n            background-image: url('images/components/folder_open.png');\n        }\n    </style>\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <div class=\"bg-cover bg-center h-screen border-solid border-8 border-purple-400\" style=\"background-image:url('images/big_images/herobanner.jpg')\">\n            <h1 class=\"text-4xl font-bold font-mono ml-10 mt-5 text-blue-300 bg-violet-950 bg-opacity-60\">Hi, my name is Sanaan</h1>\n            <p class=\"text-lg font-mono ml-10 text-blue-300 bg-violet-950 bg-opacity-60\">I am from <span class=\"text-purple-400\"><b>Islamabad, Pakistan</b></span>. I am pursuing my Bachelor's in <span class=\"text-purple-400\"><strong>Software Engineering</strong></span> from</p>\n            <h1 class=\"font-bold font-mono text-2xl text-indigo-400 ml-10 bg-violet-950 bg-opacity-60\">FAST University, Islamabad.</h1>\n            <p class=\"text-lg font-mono ml-10 text-blue-300 bg-violet-950 bg-opacity-60\">I am a <span class=\"text-violet-500\"><strong>full stack and cross-platform developer</strong></span>. I am fluent in <span class=\"text-violet-500\"><strong>C#, Kotlin and Rust</strong></span>.</p>\n            <div class=\"xl:ml-64 sm:ml-10 lg:ml-52\">\n                <img class=\"rounded-full block resize-10 xl:w-9/12 sm:w-96 sm:mr-20 border-4 border-purple-950\" src=\"images/gifs/donut.gif\" alt=\"Donut animation\">\n            </div>\n        </div>\n\n        <h1 class=\"font-bold font-mono text-5xl text-center mt-20 mb-10\">MORE ABOUT ME</h1>\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8 lg:px-16 place-items-center\">\n            <a href=\"profile.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Personal Profile</p>\n            </a>\n\n            <a href=\"gallery.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Gallery Page</p>\n            </a>\n\n            <a href=\"career.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Career Goals</p>\n            </a>\n\n            <a href=\"project.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Projects</p>\n            </a>\n\n            <a href=\"skill.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Skills/Interests</p>\n            </a>\n\n            <a href=\"contact.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Contact</p>\n            </a>\n        </div>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n\n    <script>\n        function handleFolderHover(element, isHovered) {\n            const folderImage = element.querySelector('.folder-image');\n            if (isHovered) {\n                folderImage.classList.remove('folder-closed');\n                folderImage.classList.add('folder-open');\n            } else {\n                folderImage.classList.remove('folder-open');\n                folderImage.classList.add('folder-closed');\n            }\n        }\n    </script>\n</body>\n\n</html>\n"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/index.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249019,
+        "content": [
+          {
+            "type": "diff",
+            "path": "index.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Home - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n    <style>\n        .folder-card {\n            transition: transform 0.3s ease;\n        }\n        .folder-card:hover {\n            transform: scale(1.05);\n        }\n        .folder-image {\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            image-rendering: pixelated;\n            image-rendering: crisp-edges;\n            transition: background-image 0.3s ease;\n        }\n        .folder-closed {\n            background-image: url('images/components/folder_closed.png');\n        }\n        .folder-open {\n            background-image: url('images/components/folder_open.png');\n        }\n    </style>\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <div class=\"bg-cover bg-center h-screen border-solid border-8 border-purple-400\" style=\"background-image:url('images/big_images/herobanner.jpg')\">\n            <h1 class=\"text-4xl font-bold font-mono ml-10 mt-5 text-blue-300 bg-violet-950 bg-opacity-60\">Hi, my name is Sanaan</h1>\n            <p class=\"text-lg font-mono ml-10 text-blue-300 bg-violet-950 bg-opacity-60\">I am from <span class=\"text-purple-400\"><b>Islamabad, Pakistan</b></span>. I am pursuing my Bachelor's in <span class=\"text-purple-400\"><strong>Software Engineering</strong></span> from</p>\n            <h1 class=\"font-bold font-mono text-2xl text-indigo-400 ml-10 bg-violet-950 bg-opacity-60\">FAST University, Islamabad.</h1>\n            <p class=\"text-lg font-mono ml-10 text-blue-300 bg-violet-950 bg-opacity-60\">I am a <span class=\"text-violet-500\"><strong>full stack and cross-platform developer</strong></span>. I am fluent in <span class=\"text-violet-500\"><strong>C#, Kotlin and Rust</strong></span>.</p>\n            <div class=\"xl:ml-64 sm:ml-10 lg:ml-52\">\n                <img class=\"rounded-full block resize-10 xl:w-9/12 sm:w-96 sm:mr-20 border-4 border-purple-950\" src=\"images/gifs/donut.gif\" alt=\"Donut animation\">\n            </div>\n        </div>\n\n        <h1 class=\"font-bold font-mono text-5xl text-center mt-20 mb-10\">MORE ABOUT ME</h1>\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-8 lg:px-16 place-items-center\">\n            <a href=\"profile.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Personal Profile</p>\n            </a>\n\n            <a href=\"gallery.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Gallery Page</p>\n            </a>\n\n            <a href=\"career.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Career Goals</p>\n            </a>\n\n            <a href=\"project.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Projects</p>\n            </a>\n\n            <a href=\"skill.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Skills/Interests</p>\n            </a>\n\n            <a href=\"contact.html\" class=\"folder-card block w-full max-w-xs mx-auto\" onmouseenter=\"handleFolderHover(this, true)\" onmouseleave=\"handleFolderHover(this, false)\">\n                <div class=\"relative h-48 folder-image folder-closed\" style=\"height: 12rem;\"></div>\n                <p class=\"text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg\">Contact</p>\n            </a>\n        </div>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n\n    <script>\n        function handleFolderHover(element, isHovered) {\n            const folderImage = element.querySelector('.folder-image');\n            if (isHovered) {\n                folderImage.classList.remove('folder-closed');\n                folderImage.classList.add('folder-open');\n            } else {\n                folderImage.classList.remove('folder-open');\n                folderImage.classList.add('folder-closed');\n            }\n        }\n    </script>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "Now let me create the remaining HTML files for profile, gallery, career, project, skill, and contact pages."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_fe0a05b00fdc4995bc4edb87",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/profile.html",
+        "status": "completed",
+        "rawInput": {
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Profile - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <img src=\"images/big_images/sanaan.png\" class=\"ml-72 border-4 border-purple-950 rounded-full\" alt=\"Sanaan Azfar\"/>\n        \n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">BIO:</h1>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Name: Sanaan Azfar</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Age: 20</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Date Of Birth: 7/April/2004</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Experience: None</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">From: Bahawalpur</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">University: FAST-NUCES</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Degree: BS- Software Engineering</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Semester: 5th(22nd)</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Dream Job: Game Developer</p>\n        \n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">For Contact</h1>\n        <div class=\"row-3 ml-20\">\n            <div class=\"inline-flex mr-10\">\n                <img class=\"rounded-full block w-16\" src=\"images/icons/github.png\" alt=\"GitHub\"/>\n                <p class=\"text-xl font-mono text-gray-800\">GitHub:</p>\n                <a href=\"https://github.com/SanaanAzfar\" class=\"text-xl font-mono text-violet-800\">Click Here</a>\n            </div>\n            <div class=\"inline-flex mr-10\">\n                <img class=\"rounded-full block w-16\" src=\"images/icons/linkdin.png\" alt=\"LinkedIn\"/>\n                <p class=\"text-xl font-mono text-gray-800\">LinkedIn:</p>\n                <a href=\"https://www.linkedin.com/in/sanaan-azfar-51b1322a1/\" class=\"text-xl font-mono text-violet-800\">Click Here</a>\n            </div>\n            <div class=\"inline-flex mr-10\">\n                <img class=\"rounded-full block w-16\" src=\"images/icons/itch.png\" alt=\"Itch.io\"/>\n                <p class=\"text-xl font-mono text-gray-800\">Itch IO:</p>\n                <a href=\"https://grimsonenderson.itch.io\" class=\"text-xl font-mono text-violet-800\">Click Here</a>\n            </div>\n        </div>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n</body>\n\n</html>\n",
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/profile.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/profile.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "diff",
+            "path": "profile.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Profile - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <img src=\"images/big_images/sanaan.png\" class=\"ml-72 border-4 border-purple-950 rounded-full\" alt=\"Sanaan Azfar\"/>\n        \n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">BIO:</h1>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Name: Sanaan Azfar</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Age: 20</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Date Of Birth: 7/April/2004</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Experience: None</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">From: Bahawalpur</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">University: FAST-NUCES</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Degree: BS- Software Engineering</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Semester: 5th(22nd)</p>\n        <p class=\"text-lg font-mono text-violet-950 text-center\">Dream Job: Game Developer</p>\n        \n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">For Contact</h1>\n        <div class=\"row-3 ml-20\">\n            <div class=\"inline-flex mr-10\">\n                <img class=\"rounded-full block w-16\" src=\"images/icons/github.png\" alt=\"GitHub\"/>\n                <p class=\"text-xl font-mono text-gray-800\">GitHub:</p>\n                <a href=\"https://github.com/SanaanAzfar\" class=\"text-xl font-mono text-violet-800\">Click Here</a>\n            </div>\n            <div class=\"inline-flex mr-10\">\n                <img class=\"rounded-full block w-16\" src=\"images/icons/linkdin.png\" alt=\"LinkedIn\"/>\n                <p class=\"text-xl font-mono text-gray-800\">LinkedIn:</p>\n                <a href=\"https://www.linkedin.com/in/sanaan-azfar-51b1322a1/\" class=\"text-xl font-mono text-violet-800\">Click Here</a>\n            </div>\n            <div class=\"inline-flex mr-10\">\n                <img class=\"rounded-full block w-16\" src=\"images/icons/itch.png\" alt=\"Itch.io\"/>\n                <p class=\"text-xl font-mono text-gray-800\">Itch IO:</p>\n                <a href=\"https://grimsonenderson.itch.io\" class=\"text-xl font-mono text-violet-800\">Click Here</a>\n            </div>\n        </div>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_a93c4cad3b0f4503bf8aaa7a",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/gallery.html",
+        "status": "completed",
+        "rawInput": {
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Gallery - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-10 mb-10\">Gallery</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/blender.webp\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Blender model\">\n                <figcaption class=\"text-center font-mono\">making model in blender</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/animation.jpg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Animation VFX\">\n                <figcaption class=\"text-center font-mono\">Studying animation + vfx</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/draw.jpg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Drawing\">\n                <figcaption class=\"text-center font-mono\">Learning to draw</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/godotdev.png\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Godot Development\">\n                <figcaption class=\"text-center font-mono\">Learning to Godot development</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/jog.jpeg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Jogging\">\n                <figcaption class=\"text-center font-mono\">going out for jogging</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/outer.jpg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Video Games\">\n                <figcaption class=\"text-center font-mono\">Playing Video Games</figcaption>\n            </div>\n\n            <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n        </div>\n    </div>\n</body>\n\n</html>\n",
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/gallery.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/gallery.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "diff",
+            "path": "gallery.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Gallery - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-10 mb-10\">Gallery</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/blender.webp\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Blender model\">\n                <figcaption class=\"text-center font-mono\">making model in blender</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/animation.jpg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Animation VFX\">\n                <figcaption class=\"text-center font-mono\">Studying animation + vfx</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/draw.jpg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Drawing\">\n                <figcaption class=\"text-center font-mono\">Learning to draw</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/godotdev.png\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Godot Development\">\n                <figcaption class=\"text-center font-mono\">Learning to Godot development</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/jog.jpeg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Jogging\">\n                <figcaption class=\"text-center font-mono\">going out for jogging</figcaption>\n            </div>\n\n            <div class=\"sm:w-32 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4 bg-violet-700\">\n                <img src=\"images/big_images/outer.jpg\" class=\"rounded-t-3xl border-b-4 border-gray-800\" alt=\"Video Games\">\n                <figcaption class=\"text-center font-mono\">Playing Video Games</figcaption>\n            </div>\n\n            <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n        </div>\n    </div>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_b6bf8ac7b1b74b89b9e0ee58",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/career.html",
+        "status": "completed",
+        "rawInput": {
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Career Goals - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Short-Term Goals:</h1>\n        <p class=\"font-mono text-violet-950 text-center text-xl\">To finish my degree, work hard and learn as much as I can about most things software related</p>\n        \n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Long-Term Goals:</h1>\n        <p class=\"font-mono text-violet-950 text-center text-xl\">To work in a game development company or start my own in pakistan</p>\n        \n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Motivation:</h1>\n        <p class=\"font-mono font-bold text-violet-950 text-center text-2xl\">\"By the help of God and will of man, nothing is impossible\"</p>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n</body>\n\n</html>\n",
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/career.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/career.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "diff",
+            "path": "career.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Career Goals - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Short-Term Goals:</h1>\n        <p class=\"font-mono text-violet-950 text-center text-xl\">To finish my degree, work hard and learn as much as I can about most things software related</p>\n        \n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Long-Term Goals:</h1>\n        <p class=\"font-mono text-violet-950 text-center text-xl\">To work in a game development company or start my own in pakistan</p>\n        \n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Motivation:</h1>\n        <p class=\"font-mono font-bold text-violet-950 text-center text-2xl\">\"By the help of God and will of man, nothing is impossible\"</p>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_5561133c3a434a7d917da5bb",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/project.html",
+        "status": "completed",
+        "rawInput": {
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Projects - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Projects</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Cafe Manager</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a system to help manag the FASt cafe</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: html, css</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Battle Ship</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a small game coded in semester 1</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: C++, glut</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Hostel Manager</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a mobile app for managing hostels</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: flutter, figma</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">pixel animation</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">3d animation of hatsune miku rendered in pixels</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: blender</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Scientific Calculator</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a general purpose calculator with gui</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: java, postman</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"whitespace-nowrap ml-4 font-bold font-mono m-4 mb-0\">Tekken animation</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">A small animation of tekken characters fighting ;)</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: Blender</p>\n            </div>\n\n            <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n        </div>\n    </div>\n</body>\n\n</html>\n",
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/project.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/project.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "diff",
+            "path": "project.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Projects - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Projects</h1>\n        <div class=\"columns-3 ml-16 sm:ml-4\">\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Cafe Manager</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a system to help manag the FASt cafe</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: html, css</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Battle Ship</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a small game coded in semester 1</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: C++, glut</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Hostel Manager</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a mobile app for managing hostels</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: flutter, figma</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">pixel animation</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">3d animation of hatsune miku rendered in pixels</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: blender</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Scientific Calculator</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">a general purpose calculator with gui</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: java, postman</p>\n            </div>\n\n            <div class=\"sm:w-32 bg-violet-700 hover:bg-purple-600 xl:w-64 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"whitespace-nowrap ml-4 font-bold font-mono m-4 mb-0\">Tekken animation</p>\n                </div>\n                <p class=\"font-mono ml-4 m-4 mt-1\">A small animation of tekken characters fighting ;)</p>\n                <p class=\"font-mono ml-4 m-4 mt-1 font-bold\">Technology: Blender</p>\n            </div>\n\n            <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n        </div>\n    </div>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_03ed80a3cabb42b296d492dd",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/skill.html",
+        "status": "completed",
+        "rawInput": {
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Skills & Interests - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Skills</h1>\n        <div class=\"ml-16 sm:ml-4\">\n            <div class=\"object-center-center bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">C++</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_full.png\" alt=\"Full proficiency\"/>\n                </div>\n            </div>\n\n            <div class=\"bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Java</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_low.png\" alt=\"Low proficiency\"/>\n                </div>\n            </div>\n\n            <div class=\"bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">C#</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_75.png\" alt=\"75% proficiency\"/>\n                </div>\n            </div>\n\n            <div class=\"bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Python</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_50.png\" alt=\"50% proficiency\"/>\n                </div>\n            </div>\n\n            <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Interests</h1>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Gaming</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Game Development</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Running</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Art</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Animation</p>\n        </div>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n</body>\n\n</html>\n",
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/skill.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/skill.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "diff",
+            "path": "skill.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Skills & Interests - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Skills</h1>\n        <div class=\"ml-16 sm:ml-4\">\n            <div class=\"object-center-center bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">C++</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_full.png\" alt=\"Full proficiency\"/>\n                </div>\n            </div>\n\n            <div class=\"bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Java</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_low.png\" alt=\"Low proficiency\"/>\n                </div>\n            </div>\n\n            <div class=\"bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">C#</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_75.png\" alt=\"75% proficiency\"/>\n                </div>\n            </div>\n\n            <div class=\"bg-violet-700 hover:bg-purple-600 h-auto border-r-4 border-b-4 border-2 border-soild box-border border-gray-800 rounded-3xl mb-4\">\n                <div class=\"columns-2\">\n                    <p class=\"ml-4 font-bold font-mono m-4 mb-0\">Python</p>\n                    <img class=\"resize-96\" src=\"images/progress bar/bar_50.png\" alt=\"50% proficiency\"/>\n                </div>\n            </div>\n\n            <h1 class=\"font-bold font-mono text-3xl text-center mt-20 mb-10\">Interests</h1>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Gaming</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Game Development</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Running</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Art</p>\n            <p class=\"ml-4 font-bold font-mono m-4 mb-0 text-center text-xl\">Animation</p>\n        </div>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "fde75403-019b-4304-a0aa-076e796a988e",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:06.156Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_f4a570c81ecf4d809cf58167",
+        "kind": "edit",
+        "title": "WriteFile: Writing to static-html/contact.html",
+        "status": "completed",
+        "rawInput": {
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Contact - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Contact Form:</h1>\n        <form id=\"contactForm\" onsubmit=\"handleSubmit(event)\">\n            <div class=\"grid-cols-5 bg-indigo-400 border-indigo-950 border-4 bg-opacity-30 rounded-xl\">\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"name\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Name:</label>\n                    <input type=\"text\" id=\"name\" name=\"name\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\">\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"email\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Email:</label>\n                    <input type=\"email\" id=\"email\" name=\"email\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\">\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"subject\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Subject:</label>\n                    <input type=\"text\" id=\"subject\" name=\"subject\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\">\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"message\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Message:</label>\n                    <textarea id=\"message\" name=\"message\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"></textarea>\n                </div>\n                <button type=\"submit\" class=\"border-2 border-violet-950 font-mono font-bold text-white bg-purple-600 hover:bg-purple-400 rounded-lg ml-96\">SUBMIT</button>\n                \n                <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Contact:</h1>\n                <div class=\"flex-inline mt-4\">\n                    <p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4 mt-8\">Phone Number: 0333-69-55-429</p>\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4\">Email: sanaanazfar742004@gmail.com</p>\n                </div>\n            </div>\n        </form>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n\n    <script>\n        function handleSubmit(event) {\n            event.preventDefault();\n            \n            // Get form values\n            const name = document.getElementById('name').value;\n            const email = document.getElementById('email').value;\n            const subject = document.getElementById('subject').value;\n            const message = document.getElementById('message').value;\n            \n            // Display success message (in a real app, you'd send this to a server)\n            alert('Thank you for your message, ' + name + '! I will get back to you soon.');\n            \n            // Clear the form\n            document.getElementById('contactForm').reset();\n        }\n    </script>\n</body>\n\n</html>\n",
+          "file_path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/contact.html"
+        },
+        "locations": [
+          {
+            "path": "/home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/contact.html",
+            "line": null
+          }
+        ],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "diff",
+            "path": "contact.html",
+            "oldText": "",
+            "newText": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Contact - Sanaan Azfar</title>\n    <link rel=\"stylesheet\" href=\"output.css\">\n</head>\n\n<body class=\"bg-violet-300\">\n    <div class=\"bg-violet-500 border-soild box-border m-auto mt-20 h-1/6 w-5/6 p-4 border-r-8 border-b-8 border-8 border-gray-800 m4 rounded-3xl\">\n        <header>\n            <div class=\"columns-2 font-bold mt-4 bg-violet-950 bg-opacity-30 rounded-t-3xl border-8 border-purple-400\">\n                <img class=\"rounded-full block w-1/12 absolute right-14 top-0.5\" src=\"images/icons/c++.png\" alt=\"C++ Icon\">\n                <img src=\"images/icons/sanaan_azfar.png\" class=\"scale-50 -ml-28 sm:invisible xl:visible\" alt=\"Profile Icon\">\n                <div class=\"columns-7 font-bold font-mono sm:gap-6 xl:gap-12 xl:-ml-52 sm:-ml-60\">\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"index.html\">Personal Profile</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"gallery.html\">Gallery Page</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"career.html\">Career Goals</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"project.html\">Projects</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"skill.html\">Skills & Interests</a></div>\n                    <div class=\"text-center hover:text-pink-200 sm:text-xs xl:text-sm\"><a href=\"contact.html\">Contact Us</a></div>\n                </div>\n            </div>\n        </header>\n\n        <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Contact Form:</h1>\n        <form id=\"contactForm\" onsubmit=\"handleSubmit(event)\">\n            <div class=\"grid-cols-5 bg-indigo-400 border-indigo-950 border-4 bg-opacity-30 rounded-xl\">\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"name\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Name:</label>\n                    <input type=\"text\" id=\"name\" name=\"name\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\">\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"email\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Email:</label>\n                    <input type=\"email\" id=\"email\" name=\"email\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\">\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"subject\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Subject:</label>\n                    <input type=\"text\" id=\"subject\" name=\"subject\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\">\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <label for=\"message\" class=\"text-center text-pink-200 text-xl font-mono font-bold m-24\">Message:</label>\n                    <textarea id=\"message\" name=\"message\" required class=\"border-2 border-violet-950 bg-purple-400 rounded-lg ml-64\"></textarea>\n                </div>\n                <button type=\"submit\" class=\"border-2 border-violet-950 font-mono font-bold text-white bg-purple-600 hover:bg-purple-400 rounded-lg ml-96\">SUBMIT</button>\n                \n                <h1 class=\"text-4xl font-bold font-mono mt-5 text-violet-950 bg-opacity-60 underline text-center\">Contact:</h1>\n                <div class=\"flex-inline mt-4\">\n                    <p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4 mt-8\">Phone Number: 0333-69-55-429</p>\n                </div>\n                <div class=\"flex-inline mt-4\">\n                    <p class=\"text-center text-pink-200 text-xl font-mono font-bold m-4\">Email: sanaanazfar742004@gmail.com</p>\n                </div>\n            </div>\n        </form>\n\n        <img class=\"rounded-full block w-1/12 absolute left-16\" src=\"images/icons/godot.png\" alt=\"Godot Icon\">\n    </div>\n\n    <script>\n        function handleSubmit(event) {\n            event.preventDefault();\n            \n            // Get form values\n            const name = document.getElementById('name').value;\n            const email = document.getElementById('email').value;\n            const subject = document.getElementById('subject').value;\n            const message = document.getElementById('message').value;\n            \n            // Display success message (in a real app, you'd send this to a server)\n            alert('Thank you for your message, ' + name + '! I will get back to you soon.');\n            \n            // Clear the form\n            document.getElementById('contactForm').reset();\n        }\n    </script>\n</body>\n\n</html>\n"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "41925930-3a76-48b8-a6c1-b8fe54dfc903",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:38.577Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "Now I need to copy the output.css file and the images folder to the static-html directory so the pages can reference them correctly."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "41925930-3a76-48b8-a6c1-b8fe54dfc903",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:38.577Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "Now let me copy the `output.css` and the images folder to the static-html directory:"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "41925930-3a76-48b8-a6c1-b8fe54dfc903",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:55:38.577Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_0ad2f1affc9a40dfbfe99cf5",
+        "kind": "execute",
+        "title": "Shell: cp /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old\\ example/output.css /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/output.css (Copy output.css to static-html folder)",
+        "status": "completed",
+        "rawInput": {
+          "command": "cp /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old\\ example/output.css /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/output.css",
+          "description": "Copy output.css to static-html folder",
+          "is_background": false
+        },
+        "locations": [],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Command: cp /home/sanaanazfar-22i-2594/WORK/C#/Profolio/Old\\ example/output.css /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/output.css\nDirectory: (root)\nOutput: (empty)\nError: (none)\nExit Code: 0\nSignal: (none)\nBackground PIDs: 66875\nProcess Group PGID: (none)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "6f3d17d2-9dba-4a0b-9ece-2414fbe36752",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:56:06.242Z",
+      "type": "assistant",
+      "message": {
+        "role": "thinking",
+        "parts": [
+          {
+            "text": "Now I need to copy the images folder. I'll use a symbolic link to avoid duplicating files since the images are the same."
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "6f3d17d2-9dba-4a0b-9ece-2414fbe36752",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:56:06.242Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "call_3ba7a162af4c4559b48750b9",
+        "kind": "execute",
+        "title": "Shell: ln -s /home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot/images /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/images (Create symlink to images folder)",
+        "status": "completed",
+        "rawInput": {
+          "command": "ln -s /home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot/images /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/images",
+          "description": "Create symlink to images folder",
+          "is_background": false
+        },
+        "locations": [],
+        "timestamp": 1774508249020,
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "Command: ln -s /home/sanaanazfar-22i-2594/WORK/C#/Profolio/wwwroot/images /home/sanaanazfar-22i-2594/WORK/C#/Profolio/static-html/images\nDirectory: (root)\nOutput: (empty)\nError: (none)\nExit Code: 0\nSignal: (none)\nBackground PIDs: 67124\nProcess Group PGID: (none)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "3e38a672-e43f-4e6b-be03-3f6494dfa426",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:56:32.721Z",
+      "type": "tool_call",
+      "toolCall": {
+        "toolCallId": "3e38a672-e43f-4e6b-be03-3f6494dfa426",
+        "kind": "todowrite",
+        "title": "TodoWrite",
+        "status": "completed",
+        "content": [
+          {
+            "type": "content",
+            "content": {
+              "type": "text",
+              "text": "- [x] Create static-html folder structure\n- [x] Convert Home.razor to index.html\n- [x] Convert Profile.razor to profile.html\n- [x] Convert Gallery.razor to gallery.html\n- [x] Convert Career.razor to career.html\n- [x] Convert Project.razor to project.html\n- [x] Convert Skill.razor to skill.html\n- [x] Convert Contact.razor to contact.html"
+            }
+          }
+        ],
+        "timestamp": 1774508192721
+      }
+    },
+    {
+      "uuid": "c2331521-690e-4140-8686-d07085ea3860",
+      "sessionId": "fa5b2420-53e6-4949-806f-6fb609332fd9",
+      "timestamp": "2026-03-26T06:57:29.020Z",
+      "type": "assistant",
+      "message": {
+        "role": "assistant",
+        "parts": [
+          {
+            "text": "Done! I've converted all the Razor pages back to static HTML files in the `static-html` folder. Here's what was created:\n\n**Files created in `/static-html/`:**\n- `index.html` - Home page with folder card hover effects (JavaScript handles the folder open/close animation)\n- `profile.html` - Personal profile page\n- `gallery.html` - Gallery page with images\n- `career.html` - Career goals page\n- `project.html` - Projects showcase page\n- `skill.html` - Skills and interests page with progress bars\n- `contact.html` - Contact form with JavaScript form handling\n- `output.css` - Tailwind CSS stylesheet (copied from Old example)\n- `images/` - Symlink to the existing images folder\n\n**Key conversions:**\n- Razor components (`<NavBar />`, `<FolderCard />`) converted to inline HTML\n- Folder card hover effects now use vanilla JavaScript (`onmouseenter`/`onmouseleave`)\n- Contact form uses JavaScript for form submission handling\n- All navigation links updated to point to `.html` files\n- Maintains the original Tailwind CSS styling from the old template\n\nTo view the site, open `static-html/index.html` in a browser."
+          }
+        ]
+      }
+    }
+  ]
+}

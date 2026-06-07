@@ -1,0 +1,94 @@
+/* Police Tape Animations - Custom Font Version */
+@font-face {
+    font-family: 'HomeVideo';
+    src: url('./fonts/HomeVideoBold-R90Dv.ttf') format('truetype');
+    font-weight:bold;
+    font-style: bold;
+}
+
+/* Container that will hide the overflow and keep animation inside */
+.police-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: transparent;
+}
+
+/* Police tape animation - NO BACKGROUND */
+.police-tape-animation {
+    display: inline-block;
+    width: 200%; /* Make text wider than container so it can scroll through */
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+
+    /* Using your custom font */
+    font-family: 'HomeVideo';
+
+    /* Slower, smoother animation */
+    animation: policeTapeSmooth 8s linear infinite;
+}
+
+/* Keyframes for smoother, slower animation */
+@keyframes policeTapeSmooth {
+    0% {
+        color: #ffffff;
+        transform: translateX(-50%);
+    }
+    10% {
+        color: #000000;
+    }
+    20% {
+        color: #ffffff;
+    }
+    30% {
+        color: #000000;
+    }
+    40% {
+        color: #ffffff;
+    }
+    50% {
+        color: #000000;
+        transform: translateX(0%);
+    }
+    60% {
+        color: #ffffff;
+    }
+    70% {
+        color: #000000;
+    }
+    80% {
+        color: #ffffff;
+    }
+    90% {
+        color: #000000;
+    }
+    100% {
+        color: #ffffff;
+        transform: translateX(50%);
+    }
+}
+
+@keyframes brickMoveDiagonal {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        /* Adjust these percentages to change the diagonal angle */
+        background-position: 20% 100%;  /* More horizontal movement */
+        /* background-position: 50% 100%; */  /* Even more horizontal movement */
+    }
+}
+
+.stone-brick-bg {
+    position: relative;
+    z-index: -1;
+    background-image: url('images/components/stone_bricks.png');
+    background-repeat: repeat;
+    background-size: auto;
+    animation: brickMoveDiagonal 50s linear infinite;
+}
+
+.outset_border{
+border-style: outset;
+}

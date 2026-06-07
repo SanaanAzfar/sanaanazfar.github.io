@@ -1,0 +1,32 @@
+@rendermode InteractiveWebAssembly
+
+<a href="@Href" class="folder-card block w-full max-w-xs mx-auto transition-all duration-300 hover:scale-105">
+    <div class="relative h-48 folder-image"></div>
+    <p class="text-center font-bold font-mono text-white text-lg mt-2 drop-shadow-lg">@Heading</p>
+</a>
+
+<style>
+    .folder-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+        background-image: url('images/components/folder_closed.png');
+    }
+
+    .folder-card:hover .folder-image {
+        background-image: url('images/components/folder_open.png');
+    }
+</style>
+
+@code {
+    [Parameter]
+    public string Heading { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Text { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Href { get; set; } = string.Empty;
+}
