@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y+RLymZNyJ3EbZIB/OQ+1TJaCMzRAui8TggMJvPSJX0=",
+  "Hash": "DvrivrKkbSzx3SjpL8EQxjSGARx9UZo3DU2vDmjciWY=",
   "Source": "Profolio",
   "BasePath": "_content/Profolio",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/components/Frame.png"
+    },
+    {
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/glass.png",
+      "SourceId": "Profolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "BasePath": "_content/Profolio",
+      "RelativePath": "images/components/glass.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/components/glass.png"
     },
     {
       "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/stone_bricks.png",

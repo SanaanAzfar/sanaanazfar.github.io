@@ -329,7 +329,50 @@ body {
 // 12. PROFILE PAGE
 // ============================
 
+.photo{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 35%;
+
+
 .profile-frame {
-  width: calc(11/12 * 100%);
-  height: calc(11/12 * 100%);
+  width: calc(5/12 * 100%);
+  height: calc(5/12 * 100%);
+  image-rendering: pixelated;
+  position: relative;
+  z-index: 2;
+
+  &:hover ~ .glass{
+    opacity: 25%;
+  }
+}
+.glass{
+  width: 41.5%;
+  height: auto;
+  z-index: 1;
+  image-rendering: pixelated;
+  opacity: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+      transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.glass:hover{
+  opacity: 20%;
+}
+
+
+.sanaan{
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+
+
 }

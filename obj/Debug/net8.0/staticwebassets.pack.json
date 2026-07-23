@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets/images/components/folder_open.png"
     },
     {
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/glass.png",
+      "PackagePath": "staticwebassets/images/components/glass.png"
+    },
+    {
       "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/stone_bricks.png",
       "PackagePath": "staticwebassets/images/components/stone_bricks.png"
     },
