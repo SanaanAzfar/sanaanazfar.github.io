@@ -1,0 +1,13 @@
+@rendermode InteractiveWebAssembly
+
+@code{
+private readonly string[] _heading = ["Name", "Age", "Gender","Residence","Degree Year's","Nationality", "languages","Qualification",  "Hobbies"];
+private readonly string[] _value = ["Sanaan Azfar Khaleeq", "22 Years","Male", "E-9, Islamabad","2022-2026","Pakistani","Urdu, English" ,"Bs Software Engineering",  "Reading, Dnd, Gaming, Writing"];
+
+}
+<div class="column-3">
+@for (int i=0; i < _heading.Length;i++)
+{
+        <p class="hero-description"><span class="highlight-skill"><b>@_heading[i]: </b></span><span class="highlight-location">@_value[i]</span></p>
+}
+</div>

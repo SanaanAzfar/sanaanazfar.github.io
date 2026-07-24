@@ -1,87 +1,91 @@
 {
   "Files": [
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/favicon.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/fonts/GirlOnAnAlleyChmc-W7rV.ttf",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/fonts/GirlOnAnAlleyChmc-W7rV.ttf",
       "PackagePath": "staticwebassets/fonts/GirlOnAnAlleyChmc-W7rV.ttf"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/fonts/HomeVideo-BLG6G.ttf",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/fonts/HomeVideo-BLG6G.ttf",
       "PackagePath": "staticwebassets/fonts/HomeVideo-BLG6G.ttf"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/fonts/HomeVideoBold-R90Dv.ttf",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/fonts/HomeVideoBold-R90Dv.ttf",
       "PackagePath": "staticwebassets/fonts/HomeVideoBold-R90Dv.ttf"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/herobanner.jpg",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/big_images/herobanner.jpg",
       "PackagePath": "staticwebassets/images/big_images/herobanner.jpg"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/sanaan.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/big_images/sanaan.png",
       "PackagePath": "staticwebassets/images/big_images/sanaan.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Board.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/big_images/sanaan.png~",
+      "PackagePath": "staticwebassets/images/big_images/sanaan.png~"
+    },
+    {
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/Board.png",
       "PackagePath": "staticwebassets/images/components/Board.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Frame.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/Frame.png",
       "PackagePath": "staticwebassets/images/components/Frame.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/folder_closed.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/folder_closed.png",
       "PackagePath": "staticwebassets/images/components/folder_closed.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/folder_open.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/folder_open.png",
       "PackagePath": "staticwebassets/images/components/folder_open.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/glass.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/glass.png",
       "PackagePath": "staticwebassets/images/components/glass.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/stone_bricks.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/stone_bricks.png",
       "PackagePath": "staticwebassets/images/components/stone_bricks.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/gifs/donut.gif",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/gifs/donut.gif",
       "PackagePath": "staticwebassets/images/gifs/donut.gif"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/icons/sanaan_azfar.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/icons/sanaan_azfar.png",
       "PackagePath": "staticwebassets/images/icons/sanaan_azfar.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_50.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_50.png",
       "PackagePath": "staticwebassets/images/progress bar/bar_50.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_75.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_75.png",
       "PackagePath": "staticwebassets/images/progress bar/bar_75.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_full.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_full.png",
       "PackagePath": "staticwebassets/images/progress bar/bar_full.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_low.png",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_low.png",
       "PackagePath": "staticwebassets/images/progress bar/bar_low.png"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.css",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/styles.css",
       "PackagePath": "staticwebassets/styles.css"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.css.map",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/styles.css.map",
       "PackagePath": "staticwebassets/styles.css.map"
     },
     {
-      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.scss",
+      "Id": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/styles.scss",
       "PackagePath": "staticwebassets/styles.scss"
     },
     {

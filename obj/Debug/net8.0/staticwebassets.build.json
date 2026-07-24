@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DvrivrKkbSzx3SjpL8EQxjSGARx9UZo3DU2vDmjciWY=",
+  "Hash": "1lYsqWow5aYzlEXz1Pr0JSu8aEb8plRa5KLR0GzjCiA=",
   "Source": "Profolio",
   "BasePath": "_content/Profolio",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Profolio/wwwroot",
       "Source": "Profolio",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/favicon.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/favicon.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/fonts/GirlOnAnAlleyChmc-W7rV.ttf",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/fonts/GirlOnAnAlleyChmc-W7rV.ttf",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "fonts/GirlOnAnAlleyChmc-W7rV.ttf",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot/fonts/GirlOnAnAlleyChmc-W7rV.ttf"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/fonts/HomeVideo-BLG6G.ttf",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/fonts/HomeVideo-BLG6G.ttf",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "fonts/HomeVideo-BLG6G.ttf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/fonts/HomeVideo-BLG6G.ttf"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/fonts/HomeVideoBold-R90Dv.ttf",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/fonts/HomeVideoBold-R90Dv.ttf",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "fonts/HomeVideoBold-R90Dv.ttf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/fonts/HomeVideoBold-R90Dv.ttf"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/herobanner.jpg",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/big_images/herobanner.jpg",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/big_images/herobanner.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/images/big_images/herobanner.jpg"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/big_images/sanaan.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/big_images/sanaan.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/big_images/sanaan.png",
       "AssetKind": "All",
@@ -131,10 +131,29 @@
       "OriginalItemSpec": "wwwroot/images/big_images/sanaan.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Board.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/big_images/sanaan.png~",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
+      "BasePath": "_content/Profolio",
+      "RelativePath": "images/big_images/sanaan.png~",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/big_images/sanaan.png~"
+    },
+    {
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/Board.png",
+      "SourceId": "Profolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/components/Board.png",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/images/components/Board.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/folder_closed.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/folder_closed.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/components/folder_closed.png",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/images/components/folder_closed.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/folder_open.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/folder_open.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/components/folder_open.png",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/images/components/folder_open.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/Frame.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/Frame.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/components/Frame.png",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/images/components/Frame.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/glass.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/glass.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/components/glass.png",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/images/components/glass.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/components/stone_bricks.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/components/stone_bricks.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/components/stone_bricks.png",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/images/components/stone_bricks.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/gifs/donut.gif",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/gifs/donut.gif",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/gifs/donut.gif",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/images/gifs/donut.gif"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/icons/sanaan_azfar.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/icons/sanaan_azfar.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/icons/sanaan_azfar.png",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/sanaan_azfar.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_50.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_50.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/progress bar/bar_50.png",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/images/progress bar/bar_50.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_75.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_75.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/progress bar/bar_75.png",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/progress bar/bar_75.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_full.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_full.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/progress bar/bar_full.png",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/images/progress bar/bar_full.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/images/progress bar/bar_low.png",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/images/progress bar/bar_low.png",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "images/progress bar/bar_low.png",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/images/progress bar/bar_low.png"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.css",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/styles.css",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "styles.css",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/styles.css"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.css.map",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/styles.css.map",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "styles.css.map",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/styles.css.map"
     },
     {
-      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/styles.scss",
+      "Identity": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/styles.scss",
       "SourceId": "Profolio",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/wwwroot/",
+      "ContentRoot": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/wwwroot/",
       "BasePath": "_content/Profolio",
       "RelativePath": "styles.scss",
       "AssetKind": "All",

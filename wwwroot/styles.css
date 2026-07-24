@@ -2,7 +2,7 @@
   font-family: "HomeVideo";
   src: url("./fonts/HomeVideoBold-R90Dv.ttf") format("truetype");
   font-weight: bold;
-  font-style: bold;
+  font-style: oblique;
 }
 @keyframes policeTapeSmooth {
   0% {
@@ -76,6 +76,12 @@ body {
   width: 83.3333333333%;
   padding: 1rem;
   border: 8px solid #374151;
+}
+
+.back-panel {
+  background-color: #C4B4FF;
+  padding: 2%;
+  border: 8px outset #d0c3ff;
 }
 
 .nav-container {
@@ -194,12 +200,6 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.back-panel{
-    background-color: #C4B4FF;
-    padding:2%;
-    border: 8px outset #d0c3ff;
-}
-
 .police-container {
   width: 100%;
   overflow: hidden;
@@ -280,17 +280,17 @@ body {
   left: 0;
 }
 .photo .profile-frame {
-    width: 15%;
-  height: 15%;
+  width: 225px;
+  height: auto;
   image-rendering: pixelated;
   position: relative;
   z-index: 2;
 }
 .photo .profile-frame:hover ~ .glass {
-  opacity: 15%;
+  opacity: 25%;
 }
 .photo .glass {
-  width: 15%;
+  width: 225px;
   height: auto;
   z-index: 1;
   image-rendering: pixelated;
@@ -308,10 +308,25 @@ body {
 }
 .photo .sanaan {
   position: absolute;
-  width: 15%;
+  width: 225px;
   height: auto;
   top: 0px;
   left: 0px;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.column-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 1rem;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

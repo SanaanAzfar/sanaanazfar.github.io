@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JZDHYmAYDihwL5Cd3PG9PTF5yjnIPawWLCdG1hSrc5irSW7vBV07IUU+bfVQrk02j43CyTrAmAmj7HPS69eN1g==",
+  "dgSpecHash": "bq46Bpj41Qjh+PepsxNjzz5MJL34h/l09FAl/BNklWwgj5u8RSQIxvwvWhZtOdpwIwYyV0703oZfrmUjz8ySfQ==",
   "success": true,
-  "projectFilePath": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/Profolio.csproj",
+  "projectFilePath": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/Profolio.csproj",
   "expectedPackageFiles": [
     "/home/sanaanazfar-22i-2594/.nuget/packages/microsoft.aspnetcore.authorization/8.0.0/microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "/home/sanaanazfar-22i-2594/.nuget/packages/microsoft.aspnetcore.components/8.0.0/microsoft.aspnetcore.components.8.0.0.nupkg.sha512",

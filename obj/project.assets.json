@@ -1316,11 +1316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/Profolio.csproj",
+      "projectUniqueName": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/Profolio.csproj",
       "projectName": "Profolio",
-      "projectPath": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/Profolio.csproj",
+      "projectPath": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/Profolio.csproj",
       "packagesPath": "/home/sanaanazfar-22i-2594/.nuget/packages/",
-      "outputPath": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/obj/",
+      "outputPath": "/home/sanaanazfar-22i-2594/SELF-WORK/C#/Profolio/sanaanazfar.github.io/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sanaanazfar-22i-2594/.nuget/NuGet/NuGet.Config"
